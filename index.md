@@ -10,9 +10,9 @@ Showcase your GitHub account's profile with GitHub offical page style.
 -------
 
 ## Examples
- <iframe src="http://github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=true&blog=true&email=true&company=true" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="380" sandbox="allow-scripts" seamless></iframe>
+ <iframe src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=true&blog=true&email=true&company=true" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="380" sandbox="allow-scripts" seamless></iframe>
 {% highlight html%}
-<iframe src="http://github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=true&blog=true&email=true&company=true" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="380" sandbox="allow-scripts" seamless></iframe>
+<iframe src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=true&blog=true&email=true&company=true" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="380" sandbox="allow-scripts" seamless></iframe>
 {% endhighlight %}
 
 -------
