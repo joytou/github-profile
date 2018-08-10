@@ -13,10 +13,10 @@ Have a bug? Please create an issue here on GitHub at https://github.com/joytou/
 -------
 
 ## Screenshots
-![image](//github-profile.joytou.net/Screenshot_2018-08-10-15-23-41.png)
-![image](//github-profile.joytou.net/Screenshot_2018-08-10-15-24-07.png)
-![image](//github-profile.joytou.net/Screenshot_2018-08-10-15-24-50.png)
-![image](//github-profile.joytou.net/Screenshot_2018-08-10-15--25-27.png)
+![image](https://raw.githubusercontent.com/joytou/github-profile/master/Screenshot_2018-08-10-15-23-41.png)
+![image](https://raw.githubusercontent.com/joytou/github-profile/master/Screenshot_2018-08-10-15-24-07.png)
+![image](https://raw.githubusercontent.com/joytou/github-profile/master/Screenshot_2018-08-10-15-24-50.png)
+![image](https://raw.githubusercontent.com/joytou/github-profile/master/Screenshot_2018-08-10-15--25-27.png)
 
 -------
 
