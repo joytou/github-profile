@@ -22,7 +22,14 @@ Have a bug? Please create an issue here on GitHub at https://github.com/joytou/
 
 ## Usage
 
-To use this, you just need to add an `iframe` element with src attribute:  `<iframe src="//github-profile.joytou.net/gh-profile/?user={/username}&bio={/boolean}&locations={/boolean}&blog={/boolean}&email={/boolean}&company={/boolean}"></iframe>`  in your web page. And others attributes in the `iframe` element depend on yourself.
+To use this, you just need to add an `iframe` element with `src` attribute:  
+```
+<iframe src="//github-profile.joytou.net/gh-profile/?user={/username}&bio={/boolean}
+&locations={/boolean}&blog={/boolean}&email={/boolean}&company={/boolean}"></iframe>
+``` 
+in your web page. 
+
+And others attributes in the `iframe` element **depend on yourself**.
 
 ## Author
 
