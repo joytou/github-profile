@@ -12,6 +12,14 @@ Have a bug? Please create an issue here on GitHub at https://github.com/joytou/
 
 -------
 
+## Screenshots
+![image](//github-profile.joytou.net/Screenshot_2018-08-10-15-23-41.png)
+![image](//github-profile.joytou.net/Screenshot_2018-08-10-15-24-07.png)
+![image](//github-profile.joytou.net/Screenshot_2018-08-10-15-24-50.png)
+![image](//github-profile.joytou.net/Screenshot_2018-08-10-15--25-27.png)
+
+-------
+
 ## Usage
 
 To use this, you just need to add an `iframe` element with src attribute:  `<iframe src="//github-profile.joytou.net/gh-profile/?user={/username}&bio={/boolean}&locations={/boolean}&blog={/boolean}&email={/boolean}&company={/boolean}"></iframe>`  in your web page. And others attributes in the `iframe` element depend on yourself.
