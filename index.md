@@ -15,27 +15,27 @@ Showcase your GitHub account's profile with GitHub offical page style.
 {% highlight html%}
 <iframe src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=true&blog=true&email=true&company=true" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="380"></iframe>
 {% endhighlight %}
- - ### Un-show bio:
+ - ### Un-show bio: (bio={/boolean})
  <iframe src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=false&locations=true&blog=true&email=true&company=true" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="380"></iframe>
 {% highlight html%}
 <iframe src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=false&locations=true&blog=true&email=true&company=true" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="380"></iframe>
 {% endhighlight %}
- - ### Un-show location:
+ - ### Un-show location: (location={/boolean})
  <iframe src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=false&blog=true&email=true&company=true" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="380"></iframe>
 {% highlight html%}
 <iframe src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=false&blog=true&email=true&company=true" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="380"></iframe>
 {% endhighlight %}
- - ### Un-show blog:
+ - ### Un-show blog: (blog={/boolean})
  <iframe src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=true&blog=false&email=true&company=true" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="380"></iframe>
 {% highlight html%}
 <iframe src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=true&blog=false&email=true&company=true" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="380"></iframe>
 {% endhighlight %}
- - ### Un-show email:
+ - ### Un-show email: (email={/boolean})
  <iframe src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=true&blog=true&email=false&company=true" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="380"></iframe>
 {% highlight html%}
 <iframe src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=true&blog=true&email=false&company=true" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="380"></iframe>
 {% endhighlight %}
- - ### Un-show company:
+ - ### Un-show company: (company={/boolean})
  <iframe src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=true&blog=true&email=true&company=false" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="380"></iframe>
 {% highlight html%}
 <iframe src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=true&blog=true&email=true&company=false" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="380"></iframe>
@@ -44,6 +44,11 @@ Showcase your GitHub account's profile with GitHub offical page style.
   <iframe src="//github-profile.joytou.net/gh-profile/?user=joytou" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="380"></iframe>
 {% highlight html%}
 <iframe src="//github-profile.joytou.net/gh-profile/?user=joytou" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="380"></iframe>
+{% endhighlight %}
+ - ### Auto-adjust iframe height: (iframeid={/id})
+  <iframe id="fr" src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=true&blog=true&email=true&company=true&iframeid=fr" allowtransparency="true" frameborder="0" scrolling="no" height="340" width="380"></iframe>
+{% highlight html%}
+<iframe id="fr" src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=true&blog=true&email=true&company=true&iframeid=fr" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="380"></iframe>
 {% endhighlight %}
 
 -------
