@@ -11,39 +11,39 @@ Showcase your GitHub account's profile with GitHub offical page style.
 
 ## Examples
  - ### Show all:
-  <iframe src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=true&blog=true&email=true&company=true" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="380" sandbox="allow-scripts" seamless></iframe>
+  <iframe src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=true&blog=true&email=true&company=true" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="380"></iframe>
 {% highlight html%}
-<iframe src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=true&blog=true&email=true&company=true" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="380" sandbox="allow-scripts" seamless></iframe>
+<iframe src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=true&blog=true&email=true&company=true" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="380"></iframe>
 {% endhighlight %}
  - ### Un-show bio:
- <iframe src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=false&locations=true&blog=true&email=true&company=true" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="380" sandbox="allow-scripts" seamless></iframe>
+ <iframe src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=false&locations=true&blog=true&email=true&company=true" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="380"></iframe>
 {% highlight html%}
-<iframe src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=false&locations=true&blog=true&email=true&company=true" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="380" sandbox="allow-scripts" seamless></iframe>
+<iframe src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=false&locations=true&blog=true&email=true&company=true" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="380"></iframe>
 {% endhighlight %}
  - ### Un-show location:
- <iframe src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=false&blog=true&email=true&company=true" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="380" sandbox="allow-scripts" seamless></iframe>
+ <iframe src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=false&blog=true&email=true&company=true" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="380"></iframe>
 {% highlight html%}
-<iframe src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=false&blog=true&email=true&company=true" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="380" sandbox="allow-scripts" seamless></iframe>
+<iframe src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=false&blog=true&email=true&company=true" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="380"></iframe>
 {% endhighlight %}
  - ### Un-show blog:
- <iframe src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=true&blog=false&email=true&company=true" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="380" sandbox="allow-scripts" seamless></iframe>
+ <iframe src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=true&blog=false&email=true&company=true" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="380"></iframe>
 {% highlight html%}
-<iframe src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=true&blog=false&email=true&company=true" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="380" sandbox="allow-scripts" seamless></iframe>
+<iframe src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=true&blog=false&email=true&company=true" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="380"></iframe>
 {% endhighlight %}
  - ### Un-show email:
- <iframe src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=true&blog=true&email=false&company=true" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="380" sandbox="allow-scripts" seamless></iframe>
+ <iframe src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=true&blog=true&email=false&company=true" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="380"></iframe>
 {% highlight html%}
-<iframe src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=true&blog=true&email=false&company=true" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="380" sandbox="allow-scripts" seamless></iframe>
+<iframe src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=true&blog=true&email=false&company=true" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="380"></iframe>
 {% endhighlight %}
  - ### Un-show company:
- <iframe src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=true&blog=true&email=true&company=false" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="380" sandbox="allow-scripts" seamless></iframe>
+ <iframe src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=true&blog=true&email=true&company=false" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="380"></iframe>
 {% highlight html%}
-<iframe src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=true&blog=true&email=true&company=false" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="380" sandbox="allow-scripts" seamless></iframe>
+<iframe src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=true&blog=true&email=true&company=false" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="380"></iframe>
 {% endhighlight %}
  - ### Show basic page without optional parameters:
-  <iframe src="//github-profile.joytou.net/gh-profile/?user=joytou" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="380" sandbox="allow-scripts" seamless></iframe>
+  <iframe src="//github-profile.joytou.net/gh-profile/?user=joytou" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="380"></iframe>
 {% highlight html%}
-<iframe src="//github-profile.joytou.net/gh-profile/?user=joytou" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="380" sandbox="allow-scripts" seamless></iframe>
+<iframe src="//github-profile.joytou.net/gh-profile/?user=joytou" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="380"></iframe>
 {% endhighlight %}
 
 -------
