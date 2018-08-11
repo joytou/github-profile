@@ -17,49 +17,49 @@ Showcase your GitHub account's profile with GitHub offical page style.
 ## Examples
  - ### Show all:
    <iframe src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=true&blog=true&email=true&company=true" allowtransparency="true" frameborder="0" scrolling="no" height="340" width="380"></iframe>
-   &lt;iframe&nbsp;src=&quot;//github-profile.joytou.net/gh-profile/?user=joytou **&amp;bio=true&amp;locations=true&amp;blog=true&amp;email=true&amp;company=true** &quot;&nbsp;allowtransparency=&quot;true&quot;&nbsp;frameborder=&quot;0&quot;&nbsp;scrolling=&quot;no&quot;&nbsp;height=&quot;240&quot;&nbsp;width=&quot;380&quot;&gt;&lt;/iframe&gt;
+   <code>&lt;iframe&nbsp;src=&quot;//github-profile.joytou.net/gh-profile/?user=joytou</code>**&amp;bio=true&amp;locations=true&amp;blog=true&amp;email=true&amp;company=true**<code>&quot;&nbsp;allowtransparency=&quot;true&quot;&nbsp;frameborder=&quot;0&quot;&nbsp;scrolling=&quot;no&quot;&nbsp;height=&quot;240&quot;&nbsp;width=&quot;380&quot;&gt;&lt;/iframe&gt;</code>
    
    -------
    
  - ### Un-show bio: (bio={/boolean})
    <iframe src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=false&locations=true&blog=true&email=true&company=true" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="380"></iframe>
-   &lt;iframe&nbsp;src=&quot;//github-profile.joytou.net/gh-profile/?user=joytou&amp; **bio=false** &amp;locations=true&amp;blog=true&amp;email=true&amp;company=true&quot;&nbsp;allowtransparency=&quot;true&quot;&nbsp;frameborder=&quot;0&quot;&nbsp;scrolling=&quot;no&quot;&nbsp;height=&quot;240&quot;&nbsp;width=&quot;380&quot;&gt;&lt;/iframe&gt;
+   <code>&lt;iframe&nbsp;src=&quot;//github-profile.joytou.net/gh-profile/?user=joytou&amp;</code>**bio=false**<code>&amp;locations=true&amp;blog=true&amp;email=true&amp;company=true&quot;&nbsp;allowtransparency=&quot;true&quot;&nbsp;frameborder=&quot;0&quot;&nbsp;scrolling=&quot;no&quot;&nbsp;height=&quot;240&quot;&nbsp;width=&quot;380&quot;&gt;&lt;/iframe&gt;</code>
    
    -------
    
  - ### Un-show location: (location={/boolean})
    <iframe src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=false&blog=true&email=true&company=true" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="380"></iframe>
-   &lt;iframe&nbsp;src=&quot;//github-profile.joytou.net/gh-profile/?user=joytou&amp;bio=true&amp; **locations=false** &amp;blog=true&amp;email=true&amp;company=true&quot;&nbsp;allowtransparency=&quot;true&quot;&nbsp;frameborder=&quot;0&quot;&nbsp;scrolling=&quot;no&quot;&nbsp;height=&quot;240&quot;&nbsp;width=&quot;380&quot;&gt;&lt;/iframe&gt;
+   <code>&lt;iframe&nbsp;src=&quot;//github-profile.joytou.net/gh-profile/?user=joytou&amp;bio=true&amp;</code>**locations=false**<code>&amp;blog=true&amp;email=true&amp;company=true&quot;&nbsp;allowtransparency=&quot;true&quot;&nbsp;frameborder=&quot;0&quot;&nbsp;scrolling=&quot;no&quot;&nbsp;height=&quot;240&quot;&nbsp;width=&quot;380&quot;&gt;&lt;/iframe&gt;</code>
    
    -------
    
  - ### Un-show blog: (blog={/boolean})
    <iframe src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=true&blog=false&email=true&company=true" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="380"></iframe>
-   &lt;iframe&nbsp;src=&quot;//github-profile.joytou.net/gh-profile/?user=joytou&amp;bio=true&amp;locations=true&amp; **blog=false** &amp;email=true&amp;company=true&quot;&nbsp;allowtransparency=&quot;true&quot;&nbsp;frameborder=&quot;0&quot;&nbsp;scrolling=&quot;no&quot;&nbsp;height=&quot;240&quot;&nbsp;width=&quot;380&quot;&gt;&lt;/iframe&gt;
+   <code>&lt;iframe&nbsp;src=&quot;//github-profile.joytou.net/gh-profile/?user=joytou&amp;bio=true&amp;locations=true&amp;</code>**blog=false**<code>&amp;email=true&amp;company=true&quot;&nbsp;allowtransparency=&quot;true&quot;&nbsp;frameborder=&quot;0&quot;&nbsp;scrolling=&quot;no&quot;&nbsp;height=&quot;240&quot;&nbsp;width=&quot;380&quot;&gt;&lt;/iframe&gt;</code>
    
    -------
    
  - ### Un-show email: (email={/boolean})
    <iframe src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=true&blog=true&email=false&company=true" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="380"></iframe>
-   &lt;iframe&nbsp;src=&quot;//github-profile.joytou.net/gh-profile/?user=joytou&amp;bio=true&amp;locations=true&amp;blog=true&amp; **email=false** &amp;company=true&quot;&nbsp;allowtransparency=&quot;true&quot;&nbsp;frameborder=&quot;0&quot;&nbsp;scrolling=&quot;no&quot;&nbsp;height=&quot;240&quot;&nbsp;width=&quot;380&quot;&gt;&lt;/iframe&gt;
+   <code>&lt;iframe&nbsp;src=&quot;//github-profile.joytou.net/gh-profile/?user=joytou&amp;bio=true&amp;locations=true&amp;blog=true&amp;</code>**email=false**<code>&amp;company=true&quot;&nbsp;allowtransparency=&quot;true&quot;&nbsp;frameborder=&quot;0&quot;&nbsp;scrolling=&quot;no&quot;&nbsp;height=&quot;240&quot;&nbsp;width=&quot;380&quot;&gt;&lt;/iframe&gt;</code>
    
    -------
    
  - ### Un-show company: (company={/boolean})
    <iframe src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=true&blog=true&email=true&company=false" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="380"></iframe>
-   &lt;iframe&nbsp;src=&quot;//github-profile.joytou.net/gh-profile/?user=joytou&amp;bio=true&amp;locations=true&amp;blog=true&amp;email=true&amp; **company=false** &quot;&nbsp;allowtransparency=&quot;true&quot;&nbsp;frameborder=&quot;0&quot;&nbsp;scrolling=&quot;no&quot;&nbsp;height=&quot;240&quot;&nbsp;width=&quot;380&quot;&gt;&lt;/iframe&gt;
+   <code>&lt;iframe&nbsp;src=&quot;//github-profile.joytou.net/gh-profile/?user=joytou&amp;bio=true&amp;locations=true&amp;blog=true&amp;email=true&amp;</code>**company=false**<code>&quot;&nbsp;allowtransparency=&quot;true&quot;&nbsp;frameborder=&quot;0&quot;&nbsp;scrolling=&quot;no&quot;&nbsp;height=&quot;240&quot;&nbsp;width=&quot;380&quot;&gt;&lt;/iframe&gt;</code>
    
    -------
    
  - ### Show basic page without optional parameters:
    <iframe src="//github-profile.joytou.net/gh-profile/?user=joytou" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="380"></iframe>
-   &lt;iframe&nbsp;src=&quot;//github-profile.joytou.net/gh-profile/ **?user=joytou** &quot;&nbsp;allowtransparency=&quot;true&quot;&nbsp;frameborder=&quot;0&quot;&nbsp;scrolling=&quot;no&quot;&nbsp;height=&quot;240&quot;&nbsp;width=&quot;380&quot;&gt;&lt;/iframe&gt;
+   <code>&lt;iframe&nbsp;src=&quot;//github-profile.joytou.net/gh-profile/<code>**?user=joytou**<code>&quot;&nbsp;allowtransparency=&quot;true&quot;&nbsp;frameborder=&quot;0&quot;&nbsp;scrolling=&quot;no&quot;&nbsp;height=&quot;240&quot;&nbsp;width=&quot;380&quot;&gt;&lt;/iframe&gt;</code>
    
    -------
    
  - ### Auto-adjust iframe height: (iframeid={/id})
    <iframe id="fr" src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=true&blog=true&email=true&company=true&iframeid=fr" allowtransparency="true" frameborder="0" scrolling="no" height="340" width="380"></iframe>
-   &lt;iframe&nbsp;**id=&quot;fr&quot;**&nbsp;src=&quot;//github-profile.joytou.net/gh-profile/?user=joytou&amp;bio=true&amp;locations=true&amp;blog=true&amp;email=true&amp;company=true**&amp;iframeid=fr**&quot;&nbsp;allowtransparency=&quot;true&quot;&nbsp;frameborder=&quot;0&quot;&nbsp;scrolling=&quot;no&quot;&nbsp;height=&quot;240&quot;&nbsp;width=&quot;380&quot;&gt;&lt;/iframe&gt;
+   <code>&lt;iframe&nbsp;</code>**id=&quot;fr&quot;**<code>&nbsp;src=&quot;//github-profile.joytou.net/gh-profile/?user=joytou&amp;bio=true&amp;locations=true&amp;blog=true&amp;email=true&amp;company=true</code>**&amp;iframeid=fr**<code>&quot;&nbsp;allowtransparency=&quot;true&quot;&nbsp;frameborder=&quot;0&quot;&nbsp;scrolling=&quot;no&quot;&nbsp;height=&quot;240&quot;&nbsp;width=&quot;380&quot;&gt;&lt;/iframe&gt;</code>
 
 
 
