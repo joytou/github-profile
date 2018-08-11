@@ -11,7 +11,7 @@ Showcase your GitHub account's profile with GitHub offical page style.
 
 ## Examples
  - ### Show all:
-  <iframe src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=true&blog=true&email=true&company=true" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="380"></iframe>
+  <iframe src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=true&blog=true&email=true&company=true" allowtransparency="true" frameborder="0" scrolling="no" height="340" width="380"></iframe>
 {% highlight html%}
 <iframe src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=true&blog=true&email=true&company=true" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="380"></iframe>
 {% endhighlight %}
@@ -66,6 +66,12 @@ The following URL parameters are **not** required. Add them as you wish.
 |      `blog`          |      Show your account's **blog** record. *none* by default or  `true`      |
 |      `email`         |      Show your account's **email** record. *none* by default or  `true`      |
 |      `company` |       Show your account's **company** record. *none* by default or  `true`     |
+|      `iframeid`  |        The `id` attribute of your current iframe element. For auto adaptiving page height.        |
+
+-------
+
+## Update 
+You can view the update log by clicking on [View logs](http://github-profile.joytou.net/blog.html).
 
 -------
 
