@@ -2,7 +2,7 @@
 layout: default
 ---
 # GitHub profile
-## Introduction
+## Introduction (__Unofficial__)
 Showcase your GitHub account's profile with GitHub offical page style.
 
 *Made by [@joytou](https://github.com/joytou). Available on [GitHub](https://github.com/joytou/github-profile).*
@@ -108,5 +108,15 @@ You can view the update log by clicking on [View logs](http://github-profile.joy
 
 
 ## Open source
-The GitHub-profile are available on GitHub for downloading, forking, or contributing.
+The unofficial GitHub-profile are available on GitHub for downloading, forking, or contributing.
 [View on GitHub](https://github.com/joytou/github-profile)
+
+
+
+-------
+-------
+
+
+
+## Copyright and license
+Copyright 2018 Joytou. Released under Apache 2.0.
