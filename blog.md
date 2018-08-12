@@ -1,7 +1,8 @@
 ---
 layout: default
+title: "Logs"
 ---
-# GitHub profile Blog
+# GitHub profile Logs
 
 
 ## 11 Aug, 2018
