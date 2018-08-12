@@ -99,7 +99,7 @@ The following URL parameters are **not** required. Add them as you wish.
 
 
 ## Update 
-You can view the update log by clicking on [View logs](http://github-profile.joytou.net/blog/).
+You can view the update log by clicking on [View logs](http://github-profile.joytou.net/log/).
 
 
 
