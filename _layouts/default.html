@@ -8,6 +8,7 @@
   </head>
   <body>
   {{ content }}
+  {%- unless page.title == "gh-profile" -%}
   <script>
   var nodes = document.all;
   for(var i=0;i<nodes.length;i++){
@@ -20,5 +21,6 @@
  }
 }
   </script>
+  {%- endunless -%}
   </body>
   </html>
