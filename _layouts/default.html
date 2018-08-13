@@ -12,7 +12,7 @@
   var nodes = document.all;
   for(var i=0;i<nodes.length;i++){
   if(nodes[i].tagName!="HTML"&&nodes[i].tagName!="HEAD"&&nodes[i].tagName!="LINK"&&nodes[i].tagName!="META"&&nodes[i].tagName!="TITLE"&&nodes[i].tagName!="BODY"&&nodes[i].tagName!="IFRAME"&&nodes[i].tagName!="HR"&&nodes[i].tagName!="SPAN"){
-   if(nodes[i].className){
+   if(nodes[i].className&&nodes[i].tagName!="UL"&&nodes[i].tagName!="LI"){
   	 nodes[i].className+="markdown-body";
   	}else{
   	 nodes[i].setAttribute("class","markdown-body");
