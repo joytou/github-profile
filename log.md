@@ -5,6 +5,15 @@ title: "Logs"
 # GitHub profile Logs
 
 
+## 14 Aug,2018
+ - ### Modify: 
+   - Rebuild the match `@user` function.
+ - ### Fix: 
+   - Fixed that the organizations avatar squeeze together.
+ - ### Add: 
+    - Added that judge whether the user is site admin, shown `STAFF` if it is true.
+
+
 ## 11 Aug, 2018
  - ### Add:
    - Added the function that auto-adjust iframe height adaptive iframe page content height, to use it add the `iframeid` optional parameter in URL.
