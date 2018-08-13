@@ -11,7 +11,7 @@
   <script>
   var nodes = document.all;
   for(var i=0;i<nodes.length;i++){
-  if(nodes[i].tagName!="HTML"&&nodes[i].tagName!="HEAD"&&nodes[i].tagName!="LINK"&&nodes[i].tagName!="META"&&nodes[i].tagName!="TITLE"&&nodes[i].tagName!="BODY"&&nodes[i].tagName!="IFRAME"&&nodes[i].tagName!="HR"&&nodes[i].tagName!="SPAN"&&nodes[i].tagName!="STRONG"&&nodes[i].tagName!="UL"&&nodes[i].tagName!="LI"){
+  if(nodes[i].tagName=="TABLE"||nodes[i].tagName=="TR"||nodes[i].tagName=="TD"||nodes[i].tagName=="TH"||nodes[i].tagName=="THEAD"||nodes[i].tagName=="TBODY"){
    if(nodes[i].className){
   	 nodes[i].className+="markdown-body";
   	}else{
