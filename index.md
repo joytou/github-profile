@@ -16,9 +16,22 @@ Showcase your GitHub account's profile with GitHub offical page style.
 
 
 ## Contents
-
-* Comment to trigger ToC generation
-{:toc}
+ - [Examples](#examples)
+    - [Show all](#show-all)
+    - [Un-show bio: (bio={/boolean})](#un-show-bio-bioboolean)
+    - [Un-show location: (location={/boolean})](#un-show-location-locationboolean)
+    - [Un-show blog: (blog={/boolean})](#un-show-blog-blogboolean)
+    - [Un-show email: (email={/boolean})](#un-show-email-emailboolean)
+    - [Un-show company: (company={/boolean})](#un-show-company-companyboolean)
+    - [Show basic page without optional parameters](#show-basic-page-without-optional-parameters)
+    - [Auto-adjust iframe height: (iframeid={/id})](#auto-adjust-iframe-height-iframeidid)
+ - [Available options](#available-options)
+    - [Required Parameters](#required-parameters)
+    - [Optional Parameters](#optional-parameters)
+ - [Update](#update)
+ - [Open source](#open-source)
+ - [Contributing](#contributing)
+ - [Copyright and license](#copyright-and-license)
 
 
 
