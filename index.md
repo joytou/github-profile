@@ -15,9 +15,8 @@ Showcase your GitHub account's profile with GitHub offical page style.
 
 
 
-##Contents
-* content
-{:toc}
+## Contents
+Comment to trigger ToC generation {:toc}
 
 
 
