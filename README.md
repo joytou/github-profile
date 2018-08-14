@@ -20,12 +20,6 @@ Have a bug? Please create an issue here on GitHub at https://github.com/joytou/
 
 -------
 
-## Examples
-<iframe id="fr" src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=true&blog=true&email=true&company=false&iframeid=fr" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="100%"></iframe>
-<iframe id="frr" src="//github-profile.joytou.net/gh-profile/?user=mdo&bio=true&locations=true&blog=true&email=true&company=true&iframeid=frr" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="100%"></iframe>
-
--------
-
 ## Usage
 
 To use this, you just need to add an `iframe` element with `src` attribute:  
