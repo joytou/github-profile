@@ -6,7 +6,18 @@ title: "Home"
 ## Introduction (__Unofficial__)
 Showcase your GitHub account's profile with GitHub offical page style.
 
-*Made by [@joytou](https://github.com/joytou). Available on [GitHub](https://github.com/joytou/github-profile).*
+*Made by [@joytou](https://github.com/joytou). Available on [GitHub](https://github.com/joytou/github-profile). Licensed [Apache 2](https://github.com/joytou/github-profile/blob/master/LICENSE).*
+
+
+
+-------
+-------
+
+
+
+##Contents
+* content
+{:toc}
 
 
 
@@ -110,6 +121,7 @@ You can view the update log by clicking on [View logs](http://github-profile.joy
 
 ## Open source
 The unofficial GitHub-profile are available on GitHub for downloading, forking, or contributing.
+
 [View on GitHub](https://github.com/joytou/github-profile)
 
 
@@ -119,5 +131,15 @@ The unofficial GitHub-profile are available on GitHub for downloading, forking, 
 
 
 
+## Contributing
+Thanks for your interest in contributing! There are many ways to contribute to this project. [Get started here](https://github.com/joytou/github-profile/blob/master/.github/CONTRIBUTING.md).
+
+
+
+-------
+-------
+
+
+
 ## Copyright and license
-Copyright 2018 Joytou. Released under Apache 2.0.
+Copyright 2018 [Joytou](https://github.com/joytou). Released under [Apache 2.0](https://github.com/joytou/github-profile/blob/master/LICENSE).
