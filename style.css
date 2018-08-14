@@ -2362,3 +2362,20 @@ span
 word-break:break-all;
 word-wrap: break-word;
 }
+.divtable {
+width:100%;
+display:table;
+margin:0 auto;
+text-align: center;
+border-left:0.1px solid #E4E4E4;
+border-right:0.1px solid #E4E4E4;
+border-top:0.1px dotted #E4E4E4;
+border-bottom:0.1px dotted #E4E4E4;
+}
+.divtable-cell  {
+display: table-cell;
+width: 33%;
+vertical-align: middle;
+border-left: 0.1px solid #E4E4E4;
+border-right: 0.1px solid #E4E4E4;
+}
