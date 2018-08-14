@@ -10,6 +10,7 @@ title: "Logs"
    - Rebuild the match `@user` function.
  - ### Fix: 
    - Fixed that the organizations avatar squeeze together.
+   - Fixed that some links' target error.
  - ### Add: 
     - Added the function that judge whether the user is site admin, shown `STAFF` if it is true.
     - Added the function that count the number of repos, gists and followers, and support to link to them.
