@@ -1,0 +1,28 @@
+ 
+{
+  "name": "github-profile",
+  "version": "1.1.8",
+  "description": "Showcase your GitHub account's profile with GitHub offical page style. ",
+  "homepage": "https://github-profile.joytou.net",
+  "author": "Joytou <joytou.wu@qq.com> (https://github.com/joytou)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joytou/github-profile.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joytou/github-profile/issues"
+  },
+  "keywords": [
+    "github",
+    "profile",
+    "iframe",
+    "html"
+  ],
+  "license": "Apache License, Version 2.0",
+  "files": [
+    "/_layouts/default.html",
+    "gh-profile.html",
+    "style.css",
+    "LICENSE.md"
+  ]
+}
