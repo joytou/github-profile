@@ -79,13 +79,13 @@ Showcase your GitHub account's profile with GitHub offical page style.
    -------
    
  - ### Un-show follow: (follow={/boolean})
-   <iframe id="fr5" src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=true&blog=true&email=true&company=true&follow=false&iframeid=fr5" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="100%"></iframe>
+   <iframe id="fr6" src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=true&blog=true&email=true&company=true&follow=false&iframeid=fr6" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="100%"></iframe>
    <span>&lt;iframe&nbsp;src=&quot;//github-profile.joytou.net/gh-profile/?user=joytou&amp;bio=true&amp;locations=true&amp;blog=true&amp;email=true&amp;company=true&amp;**follow=false**&quot;&nbsp;allowtransparency=&quot;true&quot;&nbsp;frameborder=&quot;0&quot;&nbsp;scrolling=&quot;no&quot;&nbsp;height=&quot;240&quot;&nbsp;width=&quot;100%&quot;&gt;&lt;/iframe&gt;</span>
    
    -------
    
  - ### Show basic page without optional parameters:
-   <iframe id="fr6" src="//github-profile.joytou.net/gh-profile/?user=joytou&iframeid=fr6" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="100%"></iframe>
+   <iframe id="fr7" src="//github-profile.joytou.net/gh-profile/?user=joytou&iframeid=fr7" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="100%"></iframe>
    <span>&lt;iframe&nbsp;src=&quot;//github-profile.joytou.net/gh-profile/**?user=joytou**&quot;&nbsp;allowtransparency=&quot;true&quot;&nbsp;frameborder=&quot;0&quot;&nbsp;scrolling=&quot;no&quot;&nbsp;height=&quot;240&quot;&nbsp;width=&quot;100%&quot;&gt;&lt;/iframe&gt;</span>
    
    -------
