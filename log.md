@@ -5,9 +5,16 @@ title: "Logs"
 # GitHub profile Logs
 
 
+## 15 Aug,2018
+ - ### Add:
+   - Added the `Follow` button to follow user.
+ - ### Modify:
+   - Rebuilt the function that matches the `@user` to achieve the same functionality as the jekyll-mentions plugin.
+
+
 ## 14 Aug,2018
  - ### Modify: 
-   - Rebuild the match `@user` function.
+   - Rebuilt the match `@user` function.
  - ### Fix: 
    - Fixed that the organizations avatar squeeze together.
    - Fixed that some links' target error.
@@ -25,7 +32,7 @@ title: "Logs"
    - Added the more examples in the web home page.
    - Added some screenshot for listing example in README.md file.
  - ### Improve:
-   - Redeced the file size, speed up page loading.
+   - Reduced the file size, speed up page loading.
  - ### Fix:
    - Fixed the bug that iframe link can't be open and the wrong target.
 
