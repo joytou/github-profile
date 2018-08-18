@@ -3,6 +3,7 @@ layout: default
 title: "Home"
 ---
 # GitHub profile
+-------
 ## Introduction (__Unofficial__)
 Showcase your GitHub account's profile with GitHub offical page style.
 
@@ -16,6 +17,9 @@ Showcase your GitHub account's profile with GitHub offical page style.
 
 
 ## Contents
+ - [Usage](#usage)
+    - [With iframe element](#with-iframe-element)
+    - [With div element](#with-div-element)
  - [Examples](#examples)
     - [Show all](#show-all)
     - [Un-show bio: (bio={/boolean})](#un-show-bio-bioboolean)
@@ -26,6 +30,7 @@ Showcase your GitHub account's profile with GitHub offical page style.
     - [Un-show follow: (follow={/boolean})](#un-show-follow-followboolean)
     - [Show basic page without optional parameters](#show-basic-page-without-optional-parameters)
     - [Auto-adjust iframe height: (iframeid={/id})](#auto-adjust-iframe-height-iframeidid)
+    - [Show with div element](#show-with-div-element)
  - [Available options](#available-options)
     - [Required Parameters](#required-parameters)
     - [Optional Parameters](#optional-parameters)
@@ -41,7 +46,31 @@ Showcase your GitHub account's profile with GitHub offical page style.
 
 
 
+## Usage
+  To use this, you just need to add an `iframe` element with `src` attribute, 
+  or add `div` and `script` elements with attributes in your web page.
+And others attributes in the iframe or div element depend on yourself.
+(**Warning**: If you use `div` element, you must add an `id` attribute that `id="gh-profile"` to the div element.)
+
+-------
+ - ### With iframe element:
+<span>&lt;iframe&nbsp;src=&quot;//github-profile.joytou.net/gh-profile/?user={/username}&amp;bio={/boolean}&amp;locations={/boolean}&amp;blog={/boolean}&amp;email={/boolean}&amp;company={/boolean}&amp;iframeid={/string}&quot;&gt;&lt;/iframe&gt;</span>
+
+-------
+
+  - ### With div element:
+<span><span>&lt;div&nbsp;id=&quot;gh-profile&nbsp;user=&quot;joytou&quot;&nbsp;follow=&quot;true&quot;&nbsp;bio=&quot;true&quot;&nbsp;locations=&quot;true&quot;&nbsp;email=&quot;true&quot;&nbsp;blog=&quot;true&quot;&nbsp;company=&quot;true&quot;&gt;&lt;/div&gt;</span>
+<span>&lt;script&nbsp;async&nbsp;defer&nbsp;src=&quot;//github-profile.joytou.net/gh-profile.min.js&quot;&gt;&lt;/script&gt;</span></span>
+
+
+
+-------
+-------
+
+
+
 ## Examples
+-------
  - ### Show all:
    <iframe id="fr0" src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=true&blog=true&email=true&company=true&follow=true&iframeid=fr0" allowtransparency="true" frameborder="0" scrolling="no" height="340" width="100%"></iframe>
    <span>&lt;iframe&nbsp;src=&quot;//github-profile.joytou.net/gh-profile/?user=joytou**&amp;bio=true&amp;locations=true&amp;blog=true&amp;email=true&amp;company=true&amp;follow=true**&quot;&nbsp;allowtransparency=&quot;true&quot;&nbsp;frameborder=&quot;0&quot;&nbsp;scrolling=&quot;no&quot;&nbsp;height=&quot;240&quot;&nbsp;width=&quot;100%&quot;&gt;&lt;/iframe&gt;</span>
@@ -94,6 +123,14 @@ Showcase your GitHub account's profile with GitHub offical page style.
    <iframe id="fr" src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=true&blog=true&email=true&company=true&follow=true&iframeid=fr" allowtransparency="true" frameborder="0" scrolling="no" height="340" width="100%"></iframe>
    <span>&lt;iframe&nbsp;**id=&quot;fr&quot;**&nbsp;src=&quot;//github-profile.joytou.net/gh-profile/?user=joytou&amp;bio=true&amp;locations=true&amp;blog=true&amp;email=true&amp;company=true&amp;follow=true**&amp;iframeid=fr**&quot;&nbsp;allowtransparency=&quot;true&quot;&nbsp;frameborder=&quot;0&quot;&nbsp;scrolling=&quot;no&quot;&nbsp;height=&quot;240&quot;&nbsp;width=&quot;100%&quot;&gt;&lt;/iframe&gt;</span>
 
+   -------
+   
+   - ### Show with div element
+   <div id="gh-profile" user="joytou" follow="true" bio="true" locations="true" email="true" blog="true" company="true"></div>
+   <script async defer src="//github-profile.joytou.net/gh-profile.min.js"></script>
+   <span><span>&lt;div&nbsp;id=&quot;gh-profile&nbsp;user=&quot;joytou&quot;&nbsp;follow=&quot;true&quot;&nbsp;bio=&quot;true&quot;&nbsp;locations=&quot;true&quot;&nbsp;email=&quot;true&quot;&nbsp;blog=&quot;true&quot;&nbsp;company=&quot;true&quot;&gt;&lt;/div&gt;</span>
+   <span>&lt;script&nbsp;async&nbsp;defer&nbsp;src=&quot;//github-profile.joytou.net/gh-profile.min.js&quot;&gt;&lt;/script&gt;</span></span>
+
 
 
 -------
@@ -102,6 +139,7 @@ Showcase your GitHub account's profile with GitHub offical page style.
 
 
 ## Available options
+-------
 ### Required Parameters
 You **must** declare a value for each of the following URL parameters:
 
@@ -122,7 +160,7 @@ The following URL parameters are **not** required. Add them as you wish.
 |      `email`         |      Show your account's **email** record. *none* by default or  `true`      |
 |      `company` |       Show your account's **company** record. *none* by default or  `true`     |
 |      `follow` |       Show the **Follow** button. *none* by default or  `true`     |
-|      `iframeid`  |        The **id** attribute of your current iframe element. For auto adaptiving page height.        |
+|      `iframeid`  |        The **id** attribute of your current iframe element. For auto adaptiving page height. **Warning**: This attribute can only be used for `iframe` element, not for `div` element.        |
 
 
 

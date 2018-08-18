@@ -13,6 +13,7 @@ Have a bug? Please create an issue here on GitHub at https://github.com/joytou/
 -------
 
 ## Screenshots
+(Remark: The following photos are for reference only.)
 ![image](https://raw.githubusercontent.com/joytou/github-profile/master/Screenshot_2018-08-10-15-23-41.png)
 ![image](https://raw.githubusercontent.com/joytou/github-profile/master/Screenshot_2018-08-10-15-24-07.png)
 ![image](https://raw.githubusercontent.com/joytou/github-profile/master/Screenshot_2018-08-10-15-24-50.png)
@@ -24,9 +25,13 @@ Have a bug? Please create an issue here on GitHub at https://github.com/joytou/
 
 To use this, you just need to add an `iframe` element with `src` attribute:  
 ```
-<iframe src="//github-profile.joytou.net/gh-profile/?user={/username}&bio={/boolean}
-&locations={/boolean}&blog={/boolean}&email={/boolean}&company={/boolean}"></iframe>
+<iframe id="{/id}" src="//github-profile.joytou.net/gh-profile/?user={/username}&bio={/boolean}&locations={/boolean}&blog={/boolean}&email={/boolean}&company={/boolean}&follow={/boolean}&iframeid={/id}"></iframe>
 ``` 
+or  add `div` and `script` elements with attributes:
+```
+<div id="gh-profile" user="{/username}" follow="{/boolean}" bio="{/boolean}" locations="{/boolean}" email="{/boolean}" blog="{/boolean}" company="{/boolean}"></div>
+   <script async defer src="//github-profile.joytou.net/gh-profile.min.js"></script>
+```
 in your web page. 
 
 And others attributes in the `iframe` element **depend on yourself**.

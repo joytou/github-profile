@@ -3,16 +3,22 @@ layout: default
 title: "Logs"
 ---
 # GitHub profile Logs
+-------
 
 
-## 15 Aug,2018
+## 18 Aug, 2018
+ - ### Add:
+   - Added the widget function, you can now used it as widget as a part in your website not just in iframe frame.
+
+
+## 15 Aug, 2018
  - ### Add:
    - Added the `Follow` button to follow user.
  - ### Modify:
    - Rebuilt the function that matches the `@user` to achieve the same functionality as the jekyll-mentions plugin.
 
 
-## 14 Aug,2018
+## 14 Aug, 2018
  - ### Modify: 
    - Rebuilt the match `@user` function.
  - ### Fix: 
