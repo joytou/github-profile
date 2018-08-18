@@ -16,12 +16,14 @@
     "github",
     "profile",
     "iframe",
-    "html"
+    "html",
+    "widget"
   ],
   "license": "Apache License, Version 2.0",
   "files": [
     "/_layouts/default.html",
     "gh-profile.html",
+    "gh-profile.min.js",
     "style.css",
     "LICENSE.md"
   ]

@@ -2,7 +2,7 @@
 
 Showcase your GitHub account's profile with GitHub offical page style.
 
-To get started, checkout http://github-profile.joytou.net !
+To get started, checkout https://github-profile.joytou.net !
 
 -------
 
@@ -25,12 +25,12 @@ __(**Remark**: The following photos are for reference only.)__
 
 To use this, you just need to add an `iframe` element with `src` attribute:  
 ```
-<iframe id="{/id}" src="//github-profile.joytou.net/gh-profile/?user={/username}&bio={/boolean}&locations={/boolean}&blog={/boolean}&email={/boolean}&company={/boolean}&follow={/boolean}&iframeid={/id}"></iframe>
+<iframe id="{/id}" src="https://github-profile.joytou.net/gh-profile/?user={/username}&bio={/boolean}&locations={/boolean}&blog={/boolean}&email={/boolean}&company={/boolean}&follow={/boolean}&iframeid={/id}"></iframe>
 ``` 
 or  add `div` and `script` elements with attributes:
 ```
 <div id="gh-profile" user="{/username}" follow="{/boolean}" bio="{/boolean}" locations="{/boolean}" email="{/boolean}" blog="{/boolean}" company="{/boolean}"></div>
-   <script async defer src="//github-profile.joytou.net/gh-profile.min.js"></script>
+   <script async defer src="https://github-profile.joytou.net/gh-profile.min.js"></script>
 ```
 in your web page. 
 

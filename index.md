@@ -54,13 +54,13 @@ And others attributes in the iframe or div element depend on yourself.<br/>
 
 -------
  - ### With iframe element:
-<span>&lt;iframe&nbsp;src=&quot;//github-profile.joytou.net/gh-profile/?user={/username}&amp;bio={/boolean}&amp;locations={/boolean}&amp;blog={/boolean}&amp;email={/boolean}&amp;company={/boolean}&amp;iframeid={/string}&quot;&gt;&lt;/iframe&gt;</span>
+<span>&lt;iframe&nbsp;src=&quot;https://github-profile.joytou.net/gh-profile/?user={/username}&amp;bio={/boolean}&amp;locations={/boolean}&amp;blog={/boolean}&amp;email={/boolean}&amp;company={/boolean}&amp;iframeid={/string}&quot;&gt;&lt;/iframe&gt;</span>
 
 -------
 
   - ### With div element:
 <span><span>&lt;div&nbsp;id=&quot;gh-profile&quot;&nbsp;user=&quot;joytou&quot;&nbsp;follow=&quot;true&quot;&nbsp;bio=&quot;true&quot;&nbsp;locations=&quot;true&quot;&nbsp;email=&quot;true&quot;&nbsp;blog=&quot;true&quot;&nbsp;company=&quot;true&quot;&gt;&lt;/div&gt;</span><br/>
-<span>&lt;script&nbsp;async&nbsp;defer&nbsp;src=&quot;//github-profile.joytou.net/gh-profile.min.js&quot;&gt;&lt;/script&gt;</span></span>
+<span>&lt;script&nbsp;async&nbsp;defer&nbsp;src=&quot;https://github-profile.joytou.net/gh-profile.min.js&quot;&gt;&lt;/script&gt;</span></span>
 
 
 
@@ -72,64 +72,64 @@ And others attributes in the iframe or div element depend on yourself.<br/>
 ## Examples
 -------
  - ### Show all:
-   <iframe id="fr0" src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=true&blog=true&email=true&company=true&follow=true&iframeid=fr0" allowtransparency="true" frameborder="0" scrolling="no" height="340" width="100%"></iframe>
-   <span>&lt;iframe&nbsp;src=&quot;//github-profile.joytou.net/gh-profile/?user=joytou**&amp;bio=true&amp;locations=true&amp;blog=true&amp;email=true&amp;company=true&amp;follow=true**&quot;&nbsp;allowtransparency=&quot;true&quot;&nbsp;frameborder=&quot;0&quot;&nbsp;scrolling=&quot;no&quot;&nbsp;height=&quot;240&quot;&nbsp;width=&quot;100%&quot;&gt;&lt;/iframe&gt;</span>
+   <iframe id="fr0" src="https://github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=true&blog=true&email=true&company=true&follow=true&iframeid=fr0" allowtransparency="true" frameborder="0" scrolling="no" height="340" width="100%"></iframe>
+   <span>&lt;iframe&nbsp;src=&quot;https://github-profile.joytou.net/gh-profile/?user=joytou**&amp;bio=true&amp;locations=true&amp;blog=true&amp;email=true&amp;company=true&amp;follow=true**&quot;&nbsp;allowtransparency=&quot;true&quot;&nbsp;frameborder=&quot;0&quot;&nbsp;scrolling=&quot;no&quot;&nbsp;height=&quot;240&quot;&nbsp;width=&quot;100%&quot;&gt;&lt;/iframe&gt;</span>
    
    -------
    
  - ### Un-show bio: (bio={/boolean})
-   <iframe id="fr1" src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=false&locations=true&blog=true&email=true&company=true&follow=true&iframeid=fr1" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="100%"></iframe>
-   <span>&lt;iframe&nbsp;src=&quot;//github-profile.joytou.net/gh-profile/?user=joytou&amp;**bio=false**&amp;locations=true&amp;blog=true&amp;email=true&amp;company=true&amp;follow=true&quot;&nbsp;allowtransparency=&quot;true&quot;&nbsp;frameborder=&quot;0&quot;&nbsp;scrolling=&quot;no&quot;&nbsp;height=&quot;240&quot;&nbsp;width=&quot;100%&quot;&gt;&lt;/iframe&gt;</span>
+   <iframe id="fr1" src="https://github-profile.joytou.net/gh-profile/?user=joytou&bio=false&locations=true&blog=true&email=true&company=true&follow=true&iframeid=fr1" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="100%"></iframe>
+   <span>&lt;iframe&nbsp;src=&quot;https://github-profile.joytou.net/gh-profile/?user=joytou&amp;**bio=false**&amp;locations=true&amp;blog=true&amp;email=true&amp;company=true&amp;follow=true&quot;&nbsp;allowtransparency=&quot;true&quot;&nbsp;frameborder=&quot;0&quot;&nbsp;scrolling=&quot;no&quot;&nbsp;height=&quot;240&quot;&nbsp;width=&quot;100%&quot;&gt;&lt;/iframe&gt;</span>
    
    -------
    
  - ### Un-show location: (location={/boolean})
-   <iframe id="fr2" src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=false&blog=true&email=true&company=true&follow=true&iframeid=fr2" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="100%"></iframe>
-   <span>&lt;iframe&nbsp;src=&quot;//github-profile.joytou.net/gh-profile/?user=joytou&amp;bio=true&amp;**locations=false**&amp;blog=true&amp;email=true&amp;company=true&amp;follow=true&quot;&nbsp;allowtransparency=&quot;true&quot;&nbsp;frameborder=&quot;0&quot;&nbsp;scrolling=&quot;no&quot;&nbsp;height=&quot;240&quot;&nbsp;width=&quot;100%&quot;&gt;&lt;/iframe&gt;</span>
+   <iframe id="fr2" src="https://github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=false&blog=true&email=true&company=true&follow=true&iframeid=fr2" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="100%"></iframe>
+   <span>&lt;iframe&nbsp;src=&quot;https://github-profile.joytou.net/gh-profile/?user=joytou&amp;bio=true&amp;**locations=false**&amp;blog=true&amp;email=true&amp;company=true&amp;follow=true&quot;&nbsp;allowtransparency=&quot;true&quot;&nbsp;frameborder=&quot;0&quot;&nbsp;scrolling=&quot;no&quot;&nbsp;height=&quot;240&quot;&nbsp;width=&quot;100%&quot;&gt;&lt;/iframe&gt;</span>
    
    -------
    
  - ### Un-show blog: (blog={/boolean})
-   <iframe id="fr3" src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=true&blog=false&email=true&company=true&follow=true&iframeid=fr3" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="100%"></iframe>
-   <span>&lt;iframe&nbsp;src=&quot;//github-profile.joytou.net/gh-profile/?user=joytou&amp;bio=true&amp;locations=true&amp;**blog=false**&amp;email=true&amp;company=true&amp;follow=true&quot;&nbsp;allowtransparency=&quot;true&quot;&nbsp;frameborder=&quot;0&quot;&nbsp;scrolling=&quot;no&quot;&nbsp;height=&quot;240&quot;&nbsp;width=&quot;100%&quot;&gt;&lt;/iframe&gt;</span>
+   <iframe id="fr3" src="https://github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=true&blog=false&email=true&company=true&follow=true&iframeid=fr3" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="100%"></iframe>
+   <span>&lt;iframe&nbsp;src=&quot;https://github-profile.joytou.net/gh-profile/?user=joytou&amp;bio=true&amp;locations=true&amp;**blog=false**&amp;email=true&amp;company=true&amp;follow=true&quot;&nbsp;allowtransparency=&quot;true&quot;&nbsp;frameborder=&quot;0&quot;&nbsp;scrolling=&quot;no&quot;&nbsp;height=&quot;240&quot;&nbsp;width=&quot;100%&quot;&gt;&lt;/iframe&gt;</span>
    
    -------
    
  - ### Un-show email: (email={/boolean})
-   <iframe id="fr4" src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=true&blog=true&email=false&company=true&follow=true&iframeid=fr4" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="100%"></iframe>
-   <span>&lt;iframe&nbsp;src=&quot;//github-profile.joytou.net/gh-profile/?user=joytou&amp;bio=true&amp;locations=true&amp;blog=true&amp;**email=false**&amp;company=true&amp;follow=true&quot;&nbsp;allowtransparency=&quot;true&quot;&nbsp;frameborder=&quot;0&quot;&nbsp;scrolling=&quot;no&quot;&nbsp;height=&quot;240&quot;&nbsp;width=&quot;100%&quot;&gt;&lt;/iframe&gt;</span>
+   <iframe id="fr4" src="https://github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=true&blog=true&email=false&company=true&follow=true&iframeid=fr4" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="100%"></iframe>
+   <span>&lt;iframe&nbsp;src=&quot;https://github-profile.joytou.net/gh-profile/?user=joytou&amp;bio=true&amp;locations=true&amp;blog=true&amp;**email=false**&amp;company=true&amp;follow=true&quot;&nbsp;allowtransparency=&quot;true&quot;&nbsp;frameborder=&quot;0&quot;&nbsp;scrolling=&quot;no&quot;&nbsp;height=&quot;240&quot;&nbsp;width=&quot;100%&quot;&gt;&lt;/iframe&gt;</span>
    
    -------
    
  - ### Un-show company: (company={/boolean})
-   <iframe id="fr5" src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=true&blog=true&email=true&company=false&follow=true&iframeid=fr5" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="100%"></iframe>
-   <span>&lt;iframe&nbsp;src=&quot;//github-profile.joytou.net/gh-profile/?user=joytou&amp;bio=true&amp;locations=true&amp;blog=true&amp;email=true&amp;**company=false**&amp;follow=true&quot;&nbsp;allowtransparency=&quot;true&quot;&nbsp;frameborder=&quot;0&quot;&nbsp;scrolling=&quot;no&quot;&nbsp;height=&quot;240&quot;&nbsp;width=&quot;100%&quot;&gt;&lt;/iframe&gt;</span>
+   <iframe id="fr5" src="https://github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=true&blog=true&email=true&company=false&follow=true&iframeid=fr5" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="100%"></iframe>
+   <span>&lt;iframe&nbsp;src=&quot;https://github-profile.joytou.net/gh-profile/?user=joytou&amp;bio=true&amp;locations=true&amp;blog=true&amp;email=true&amp;**company=false**&amp;follow=true&quot;&nbsp;allowtransparency=&quot;true&quot;&nbsp;frameborder=&quot;0&quot;&nbsp;scrolling=&quot;no&quot;&nbsp;height=&quot;240&quot;&nbsp;width=&quot;100%&quot;&gt;&lt;/iframe&gt;</span>
    
    -------
    
  - ### Un-show follow: (follow={/boolean})
-   <iframe id="fr6" src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=true&blog=true&email=true&company=true&follow=false&iframeid=fr6" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="100%"></iframe>
-   <span>&lt;iframe&nbsp;src=&quot;//github-profile.joytou.net/gh-profile/?user=joytou&amp;bio=true&amp;locations=true&amp;blog=true&amp;email=true&amp;company=true&amp;**follow=false**&quot;&nbsp;allowtransparency=&quot;true&quot;&nbsp;frameborder=&quot;0&quot;&nbsp;scrolling=&quot;no&quot;&nbsp;height=&quot;240&quot;&nbsp;width=&quot;100%&quot;&gt;&lt;/iframe&gt;</span>
+   <iframe id="fr6" src="https://github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=true&blog=true&email=true&company=true&follow=false&iframeid=fr6" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="100%"></iframe>
+   <span>&lt;iframe&nbsp;src=&quot;https://github-profile.joytou.net/gh-profile/?user=joytou&amp;bio=true&amp;locations=true&amp;blog=true&amp;email=true&amp;company=true&amp;**follow=false**&quot;&nbsp;allowtransparency=&quot;true&quot;&nbsp;frameborder=&quot;0&quot;&nbsp;scrolling=&quot;no&quot;&nbsp;height=&quot;240&quot;&nbsp;width=&quot;100%&quot;&gt;&lt;/iframe&gt;</span>
    
    -------
    
  - ### Show basic page without optional parameters:
-   <iframe id="fr7" src="//github-profile.joytou.net/gh-profile/?user=joytou&iframeid=fr7" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="100%"></iframe>
-   <span>&lt;iframe&nbsp;src=&quot;//github-profile.joytou.net/gh-profile/**?user=joytou**&quot;&nbsp;allowtransparency=&quot;true&quot;&nbsp;frameborder=&quot;0&quot;&nbsp;scrolling=&quot;no&quot;&nbsp;height=&quot;240&quot;&nbsp;width=&quot;100%&quot;&gt;&lt;/iframe&gt;</span>
+   <iframe id="fr7" src="https://github-profile.joytou.net/gh-profile/?user=joytou&iframeid=fr7" allowtransparency="true" frameborder="0" scrolling="no" height="240" width="100%"></iframe>
+   <span>&lt;iframe&nbsp;src=&quot;https://github-profile.joytou.net/gh-profile/**?user=joytou**&quot;&nbsp;allowtransparency=&quot;true&quot;&nbsp;frameborder=&quot;0&quot;&nbsp;scrolling=&quot;no&quot;&nbsp;height=&quot;240&quot;&nbsp;width=&quot;100%&quot;&gt;&lt;/iframe&gt;</span>
    
    -------
    
  - ### Auto-adjust iframe height: (iframeid={/id})
-   <iframe id="fr" src="//github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=true&blog=true&email=true&company=true&follow=true&iframeid=fr" allowtransparency="true" frameborder="0" scrolling="no" height="340" width="100%"></iframe>
-   <span>&lt;iframe&nbsp;**id=&quot;fr&quot;**&nbsp;src=&quot;//github-profile.joytou.net/gh-profile/?user=joytou&amp;bio=true&amp;locations=true&amp;blog=true&amp;email=true&amp;company=true&amp;follow=true**&amp;iframeid=fr**&quot;&nbsp;allowtransparency=&quot;true&quot;&nbsp;frameborder=&quot;0&quot;&nbsp;scrolling=&quot;no&quot;&nbsp;height=&quot;240&quot;&nbsp;width=&quot;100%&quot;&gt;&lt;/iframe&gt;</span>
+   <iframe id="fr" src="https://github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=true&blog=true&email=true&company=true&follow=true&iframeid=fr" allowtransparency="true" frameborder="0" scrolling="no" height="340" width="100%"></iframe>
+   <span>&lt;iframe&nbsp;**id=&quot;fr&quot;**&nbsp;src=&quot;https://github-profile.joytou.net/gh-profile/?user=joytou&amp;bio=true&amp;locations=true&amp;blog=true&amp;email=true&amp;company=true&amp;follow=true**&amp;iframeid=fr**&quot;&nbsp;allowtransparency=&quot;true&quot;&nbsp;frameborder=&quot;0&quot;&nbsp;scrolling=&quot;no&quot;&nbsp;height=&quot;240&quot;&nbsp;width=&quot;100%&quot;&gt;&lt;/iframe&gt;</span>
 
    -------
    
    - ### Show with div element
    <div id="gh-profile" user="joytou" follow="true" bio="true" locations="true" email="true" blog="true" company="true"></div>
-   <script async defer src="//github-profile.joytou.net/gh-profile.min.js"></script>
+   <script async defer src="https://github-profile.joytou.net/gh-profile.min.js"></script>
    <span><span>&lt;div&nbsp;**id=&quot;gh-profile&quot;&nbsp;user=&quot;joytou&quot;**&nbsp;follow=&quot;true&quot;&nbsp;bio=&quot;true&quot;&nbsp;locations=&quot;true&quot;&nbsp;email=&quot;true&quot;&nbsp;blog=&quot;true&quot;&nbsp;company=&quot;true&quot;&gt;&lt;/div&gt;</span><br/>
-   <span>**&lt;script&nbsp;async&nbsp;defer&nbsp;src=&quot;//github-profile.joytou.net/gh-profile.min.js&quot;&gt;&lt;/script&gt;**</span></span>
+   <span>**&lt;script&nbsp;async&nbsp;defer&nbsp;src=&quot;https://github-profile.joytou.net/gh-profile.min.js&quot;&gt;&lt;/script&gt;**</span></span>
 
 
 
@@ -170,7 +170,7 @@ The following URL parameters are **not** required. Add them as you wish.
 
 
 ## Update 
-You can view the update log by clicking on [View logs](http://github-profile.joytou.net/log/).
+You can view the update log by clicking on [View logs](https://github-profile.joytou.net/log/).
 
 
 

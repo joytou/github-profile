@@ -6,21 +6,7 @@
 <link href="/style.css" rel="stylesheet">
 <title>{% if page.title%}{{ page.title }} - {% endif %}GitHub-profile</title>
   </head>
-  <body>
+  <body{% unless page.title == "gh-profile" %} class="markdown-body"{% endunless %}>
   {{ content }}
-  {%- unless page.title == "gh-profile" -%}
-  <script>
-  var nodes = document.all;
-  for(var i=0;i<nodes.length;i++){
-  if(nodes[i].tagName=="TABLE"||nodes[i].tagName=="TR"||nodes[i].tagName=="TD"||nodes[i].tagName=="TH"||nodes[i].tagName=="THEAD"||nodes[i].tagName=="TBODY"){
-   if(nodes[i].className){
-  	 nodes[i].className+="markdown-body";
-  	}else{
-  	 nodes[i].setAttribute("class","markdown-body");
-  	}
- }
-}
-  </script>
-  {%- endunless -%}
   </body>
   </html>
