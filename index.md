@@ -59,7 +59,7 @@ And others attributes in the iframe or div element depend on yourself.<br/>
 -------
 
   - ### With div element:
-<span><span>&lt;div&nbsp;id=&quot;gh-profile&nbsp;user=&quot;joytou&quot;&nbsp;follow=&quot;true&quot;&nbsp;bio=&quot;true&quot;&nbsp;locations=&quot;true&quot;&nbsp;email=&quot;true&quot;&nbsp;blog=&quot;true&quot;&nbsp;company=&quot;true&quot;&gt;&lt;/div&gt;</span><br/>
+<span><span>&lt;div&nbsp;id=&quot;gh-profile&quot;&nbsp;user=&quot;joytou&quot;&nbsp;follow=&quot;true&quot;&nbsp;bio=&quot;true&quot;&nbsp;locations=&quot;true&quot;&nbsp;email=&quot;true&quot;&nbsp;blog=&quot;true&quot;&nbsp;company=&quot;true&quot;&gt;&lt;/div&gt;</span><br/>
 <span>&lt;script&nbsp;async&nbsp;defer&nbsp;src=&quot;//github-profile.joytou.net/gh-profile.min.js&quot;&gt;&lt;/script&gt;</span></span>
 
 
