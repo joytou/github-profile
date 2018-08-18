@@ -13,7 +13,7 @@ Have a bug? Please create an issue here on GitHub at https://github.com/joytou/
 -------
 
 ## Screenshots
-(Remark: The following photos are for reference only.)
+__(**Remark**: The following photos are for reference only.)__
 ![image](https://raw.githubusercontent.com/joytou/github-profile/master/Screenshot_2018-08-10-15-23-41.png)
 ![image](https://raw.githubusercontent.com/joytou/github-profile/master/Screenshot_2018-08-10-15-24-07.png)
 ![image](https://raw.githubusercontent.com/joytou/github-profile/master/Screenshot_2018-08-10-15-24-50.png)

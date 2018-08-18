@@ -47,9 +47,9 @@ Showcase your GitHub account's profile with GitHub offical page style.
 
 
 ## Usage
-  To use this, you just need to add an `iframe` element with `src` attribute, 
-  or add `div` and `script` elements with attributes in your web page.
-And others attributes in the iframe or div element depend on yourself.
+  To use this, you just need to add an `iframe` element with `src` attribute, <br/>
+  or add `div` and `script` elements with attributes in your web page.<br/>
+And others attributes in the iframe or div element depend on yourself.<br/>
 (**Warning**: If you use `div` element, you must add an `id` attribute that `id="gh-profile"` to the div element.)
 
 -------
@@ -59,7 +59,7 @@ And others attributes in the iframe or div element depend on yourself.
 -------
 
   - ### With div element:
-<span><span>&lt;div&nbsp;id=&quot;gh-profile&nbsp;user=&quot;joytou&quot;&nbsp;follow=&quot;true&quot;&nbsp;bio=&quot;true&quot;&nbsp;locations=&quot;true&quot;&nbsp;email=&quot;true&quot;&nbsp;blog=&quot;true&quot;&nbsp;company=&quot;true&quot;&gt;&lt;/div&gt;</span>
+<span><span>&lt;div&nbsp;id=&quot;gh-profile&nbsp;user=&quot;joytou&quot;&nbsp;follow=&quot;true&quot;&nbsp;bio=&quot;true&quot;&nbsp;locations=&quot;true&quot;&nbsp;email=&quot;true&quot;&nbsp;blog=&quot;true&quot;&nbsp;company=&quot;true&quot;&gt;&lt;/div&gt;</span><br/>
 <span>&lt;script&nbsp;async&nbsp;defer&nbsp;src=&quot;//github-profile.joytou.net/gh-profile.min.js&quot;&gt;&lt;/script&gt;</span></span>
 
 
@@ -128,8 +128,8 @@ And others attributes in the iframe or div element depend on yourself.
    - ### Show with div element
    <div id="gh-profile" user="joytou" follow="true" bio="true" locations="true" email="true" blog="true" company="true"></div>
    <script async defer src="//github-profile.joytou.net/gh-profile.min.js"></script>
-   <span><span>&lt;div&nbsp;id=&quot;gh-profile&nbsp;user=&quot;joytou&quot;&nbsp;follow=&quot;true&quot;&nbsp;bio=&quot;true&quot;&nbsp;locations=&quot;true&quot;&nbsp;email=&quot;true&quot;&nbsp;blog=&quot;true&quot;&nbsp;company=&quot;true&quot;&gt;&lt;/div&gt;</span>
-   <span>&lt;script&nbsp;async&nbsp;defer&nbsp;src=&quot;//github-profile.joytou.net/gh-profile.min.js&quot;&gt;&lt;/script&gt;</span></span>
+   <span><span>&lt;div&nbsp;**id=&quot;gh-profile&quot;&nbsp;user=&quot;joytou&quot;**&nbsp;follow=&quot;true&quot;&nbsp;bio=&quot;true&quot;&nbsp;locations=&quot;true&quot;&nbsp;email=&quot;true&quot;&nbsp;blog=&quot;true&quot;&nbsp;company=&quot;true&quot;&gt;&lt;/div&gt;</span><br/>
+   <span>**&lt;script&nbsp;async&nbsp;defer&nbsp;src=&quot;//github-profile.joytou.net/gh-profile.min.js&quot;&gt;&lt;/script&gt;**</span></span>
 
 
 
@@ -160,7 +160,7 @@ The following URL parameters are **not** required. Add them as you wish.
 |      `email`         |      Show your account's **email** record. *none* by default or  `true`      |
 |      `company` |       Show your account's **company** record. *none* by default or  `true`     |
 |      `follow` |       Show the **Follow** button. *none* by default or  `true`     |
-|      `iframeid`  |        The **id** attribute of your current iframe element. For auto adaptiving page height. **Warning**: This attribute can only be used for `iframe` element, not for `div` element.        |
+|      `iframeid`  |        The **id** attribute of your current iframe element. For auto adaptiving page height. <br/>(**Warning**: This attribute can only be used for `iframe` element, not for `div` element.)        |
 
 
 
