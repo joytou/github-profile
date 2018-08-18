@@ -3,7 +3,6 @@ layout: default
 title: "Logs"
 ---
 # GitHub profile Logs
--------
 
 
 ## 18 Aug, 2018

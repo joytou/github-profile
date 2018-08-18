@@ -3,7 +3,6 @@ layout: default
 title: "Home"
 ---
 # GitHub profile
--------
 ## Introduction (__Unofficial__)
 Showcase your GitHub account's profile with GitHub offical page style.
 
@@ -70,7 +69,6 @@ And others attributes in the iframe or div element depend on yourself.<br/>
 
 
 ## Examples
--------
  - ### Show all:
    <iframe id="fr0" src="https://github-profile.joytou.net/gh-profile/?user=joytou&bio=true&locations=true&blog=true&email=true&company=true&follow=true&iframeid=fr0" allowtransparency="true" frameborder="0" scrolling="no" height="340" width="100%"></iframe>
    <span>&lt;iframe&nbsp;src=&quot;https://github-profile.joytou.net/gh-profile/?user=joytou**&amp;bio=true&amp;locations=true&amp;blog=true&amp;email=true&amp;company=true&amp;follow=true**&quot;&nbsp;allowtransparency=&quot;true&quot;&nbsp;frameborder=&quot;0&quot;&nbsp;scrolling=&quot;no&quot;&nbsp;height=&quot;240&quot;&nbsp;width=&quot;100%&quot;&gt;&lt;/iframe&gt;</span>
@@ -139,7 +137,6 @@ And others attributes in the iframe or div element depend on yourself.<br/>
 
 
 ## Available options
--------
 ### Required Parameters
 You **must** declare a value for each of the following URL parameters:
 
