@@ -7,7 +7,7 @@ title: "Logs"
 
 ## 18 Aug, 2018
  - ### Add:
-   - Added the widget function, you can now used it as widget as a part in your website not just in iframe frame.
+   - Added the widget function, you can now used it as widget as a part in your website, instead of just can use in the iframe framework.
 
 
 ## 15 Aug, 2018
