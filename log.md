@@ -5,6 +5,9 @@ title: "Logs"
 # GitHub profile Logs
 
 
+[Back to home](https://github-profile.joytou.net/)
+
+
 ## 18 Aug, 2018
  - ### Add:
    - Added the widget function, you can now used it as widget as a part in your website, instead of just can use in the iframe framework.
@@ -48,3 +51,11 @@ title: "Logs"
  - Fixed bugs:
    - Can't shown on https protocol.
    - The `company` item shows error.
+
+
+-------
+-------
+
+
+## Copyright and license
+Copyright 2018 [Joytou](https://github.com/joytou). Released under [Apache 2.0](https://github.com/joytou/github-profile/blob/master/LICENSE).
