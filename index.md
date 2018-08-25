@@ -159,11 +159,7 @@ The following parameters are **not** required. Add them as you wish.
 |      `company` |       Show your account's **company** record. *none* by default or  `true`     |
 |      `follow` |       Show the **Follow** button. *none* by default or  `true`     |
 |      `iframeid`  |        The **id** attribute of your current iframe element. For auto adaptiving page height. <br/>(**Warning**: This attribute can only be used for `iframe` element, not for `div` element.)        |
-|       `token_encode`  |        **Base64 encode** string of your **[personal access token](https://github.com/settings/tokens)**, for increasing the times of queries.<br/>
-(**Warning**: If using an `iframe`, the encoded string need to follow the conversion rules below: <br/>
-` = `  =>  ` %3d ` <br/>
-` + `  =>  ` %2b ` <br/>
-` / `  =>  ` %2f ` )  |
+|       `token_encode`  |        **Base64 encode** string of your **[personal access token](https://github.com/settings/tokens)**, for increasing the times of queries.<br/>(**Warning**: If using an `iframe`, the encoded string need to follow the conversion rules below: <br/>` = `  =>  ` %3d ` <br/>` + `  =>  ` %2b ` <br/>` / `  =>  ` %2f ` )  |
 
 
 
@@ -205,7 +201,7 @@ function myFunction() {
     var iframeid = document.getElementById("iframeidcheck").checked;
     var tokenencode = document.getElementById("inputtoken").value;
     document.getElementById("myInput").placeholder=(org?":organization":":user");
-    document.getElementById("test_iframe").src = "gh-profile.html?"+(org?"org":"user")+"=" + (x?x:"joytou")+"&bio="+bio+"&locations="+location+"&blog="+blog+"&email="+email+"&company="+company+"&follow="+follow+(iframeid?"&iframeid=test_iframe":"")+(tokenencode?"&token_encode="+tokenencode:"");
+    document.getElementById("test_iframe").src = "https://github-profile.joytou.net/gh-profile/?"+(org?"org":"user")+"=" + (x?x:"joytou")+"&bio="+bio+"&locations="+location+"&blog="+blog+"&email="+email+"&company="+company+"&follow="+follow+(iframeid?"&iframeid=test_iframe":"")+(tokenencode?"&token_encode="+tokenencode:"");
     document.getElementById("iframecode").value="<iframe"+(iframeid?" id=\"iframedemo\"":"")+" src=\"https://github-profile.joytou.net/gh-profile/?"+(org?"org":"user")+"=" + (x?x:"joytou")+"&bio="+bio+"&locations="+location+"&blog="+blog+"&email="+email+"&company="+company+"&follow="+follow+"&iframeid=iframedemo"+(tokenencode?"&token_encode="+tokenencode:"")+"\"></iframe>";
     document.getElementById("divcode").value="<div id=\"gh-profile\" "+(org?"org":"user")+"=\""+(x?x:"joytou")+"\" bio=\""+bio+"\" locations=\""+location+"\" blog=\""+blog+"\" email=\""+email+"\" company=\""+company+"\" follow=\""+follow+(tokenencode?"\" token_encode=\""+tokenencode:"")+"\"></div>";
 }
