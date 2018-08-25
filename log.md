@@ -8,6 +8,14 @@ title: "Logs"
 [Back to home](https://github-profile.joytou.net/)
 
 
+## 25 Aug, 2018
+ - ### Add:
+   - Added the function for organization account: to list the organization member for organization account, to show `Verified` if the organization is verified.
+   - Added the function that can use your **personal access token**. 
+   - *For more details, turn to **Available options**->**Required Parameters**.*
+   
+
+
 ## 18 Aug, 2018
  - ### Add:
    - Added the widget function, you can now used it as widget as a part in your website, instead of just can use in the iframe framework.
