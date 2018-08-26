@@ -129,7 +129,7 @@ And others attributes in the iframe or div element depend on yourself.<br/>
    <div id="gh-profile" user="joytou" follow="true" bio="true" locations="true" email="true" blog="true" company="true"></div>
    <script async defer src="https://github-profile.joytou.net/gh-profile.min.js"></script>
    <span><span>&lt;div&nbsp;**id=&quot;gh-profile&quot;&nbsp;user=&quot;joytou&quot;**&nbsp;follow=&quot;true&quot;&nbsp;bio=&quot;true&quot;&nbsp;locations=&quot;true&quot;&nbsp;email=&quot;true&quot;&nbsp;blog=&quot;true&quot;&nbsp;company=&quot;true&quot;&gt;&lt;/div&gt;</span><br/>
-   <span>**&lt;link&nbsp;href=&quot;https://github-profile.joytou.net/style.css"&quot;&nbsp;rel=&quot;stylesheet&quot;&gt;**</span><br/>
+   <span>**&lt;link&nbsp;href=&quot;https://github-profile.joytou.net/style.css&quot;&nbsp;rel=&quot;stylesheet&quot;&gt;**</span><br/>
    <span>**&lt;script&nbsp;async&nbsp;defer&nbsp;src=&quot;https://github-profile.joytou.net/gh-profile.min.js&quot;&gt;&lt;/script&gt;**</span></span>
 
 
@@ -188,7 +188,7 @@ With iframe element:<br/>
 <textarea style="width:100%" id="iframecode" readOnly onclick="this.select()"><iframe src="https://github-profile.joytou.net/gh-profile.min/?user=joytou&bio=false&locations=false&blog=false&email=false&company=false&follow=false"></iframe></textarea>
   -------
 With div element:<br/>
-<textarea style="width:100%" id="divcode" readOnly onclick="this.select()"><div id="gh-profile" user="joytou" bio="false" locations="false" email="false" blog="false" company="false" follow="false"></div></textarea><textarea style="width:100%" readOnly onclick="this.select()"><link href="https://github-profile.joytou.net/style.css" rel="stylesheet">\r\n<script async defer src="https://github-profile.joytou.net/gh-profile.min.js"></script></textarea>
+<textarea style="width:100%" id="divcode" readOnly onclick="this.select()"><div id="gh-profile" user="joytou" bio="false" locations="false" email="false" blog="false" company="false" follow="false"></div></textarea><textarea style="width:100%" readOnly onclick="this.select()"><link href="https://github-profile.joytou.net/style.css" rel="stylesheet">        <script async defer src="https://github-profile.joytou.net/gh-profile.min.js"></script></textarea>
 </form>
 <script>
 function myFunction() {
