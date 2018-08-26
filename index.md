@@ -189,6 +189,7 @@ With iframe element:<br/>
 With div element:<br/>
 <textarea style="width:100%" id="divcode" readOnly onclick="this.select()"><div id="gh-profile" user="joytou" bio="false" locations="false" email="false" blog="false" company="false" follow="false"></div></textarea><textarea style="width:100%" readOnly onclick="this.select()"><script async defer src="https://github-profile.joytou.net/gh-profile.min.js"></script></textarea>
 </form>
+<script src="https://api.github.com/rate_limit?callback=query_remain" id="remainscript"></script>
 <script>
 function query_remain(t) {
 document.getElementById("remainoutput").value="Remaining queries: "+t.data.resources.core.remaining+" \r\nTotal queries:"+t.data.resources.core.limit;
@@ -208,7 +209,7 @@ function myFunction() {
     document.getElementById("test_iframe").src = "https://github-profile.joytou.net/gh-profile.min/?"+(org?"org":"user")+"=" + (x?x:"joytou")+"&bio="+bio+"&locations="+location+"&blog="+blog+"&email="+email+"&company="+company+"&follow="+follow+(iframeid?"&iframeid=test_iframe":"")+(tokenencode?"&token_encode="+tokenencode:"");
     document.getElementById("iframecode").value="<iframe"+(iframeid?" id=\"iframedemo\"":"")+" src=\"https://github-profile.joytou.net/gh-profile.min/?"+(org?"org":"user")+"=" + (x?x:"joytou")+"&bio="+bio+"&locations="+location+"&blog="+blog+"&email="+email+"&company="+company+"&follow="+follow+"&iframeid=iframedemo"+(tokenencode?"&token_encode="+tokenencode:"")+"\"></iframe>";
     document.getElementById("divcode").value="<div id=\"gh-profile\" "+(org?"org":"user")+"=\""+(x?x:"joytou")+"\" bio=\""+bio+"\" locations=\""+location+"\" blog=\""+blog+"\" email=\""+email+"\" company=\""+company+"\" follow=\""+follow+(tokenencode?"\" token_encode=\""+tokenencode:"")+"\"></div>";
-    document.write("<script src='https://api.github.com/rate_limit?"+(tokenencode?"access_token="+tokenencode+"&":"")+"callback=query_remain'></script>");
+    document.getElementById("remainscript").src="https://api.github.com/rate_limit?"+(tokenencode?"access_token="+tokenencode+"&":"")+"callback=query_remain";
 }
 myFunction();
 </script>
