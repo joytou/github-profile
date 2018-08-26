@@ -8,6 +8,11 @@ title: "Logs"
 [Back to home](https://github-profile.joytou.net/)
 
 
+## 26 Aug, 2018
+ - ### Fix:
+   - Fixed bug that can't use as normally.
+
+
 ## 25 Aug, 2018
  - ### Add:
    - Added the function for organization account: to list the organization member for organization account, to show `Verified` if the organization is verified.
