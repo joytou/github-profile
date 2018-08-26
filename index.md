@@ -159,7 +159,7 @@ The following parameters are **not** required. Add them as you wish.
 |      `company` |       Show your account's **company** record. *none* by default or  `true`     |
 |      `follow` |       Show the **Follow** button. *none* by default or  `true`     |
 |      `iframeid`  |        The **id** attribute of your current iframe element. For auto adaptiving page height. <br/>(**Warning**: This attribute can only be used for `iframe` element, not for `div` element.)        |
-|       `token_encode`  |        **Base64 encode** string of your **[personal access token](https://github.com/settings/tokens)**, for increasing the times of queries.<br/>(**Warning**: If using an `iframe`, the encoded string need to follow the conversion rules below: <br/>` = `  =>  ` %3d ` <br/>` + `  =>  ` %2b ` <br/>` / `  =>  ` %2f ` )  |
+|       `token_encode`  |        **Base64 encode** string of your **[personal access token](https://github.com/settings/tokens)**, for increasing the times of queries.<br/>(**Warning**: If using an `iframe`, the encoded string need to follow the conversion rules below: <br/>` = ` => ` %3d ` <br/>` + ` => ` %2b ` <br/>` / ` => ` %2f ` )  |
 
 
 
