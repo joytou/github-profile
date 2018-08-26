@@ -127,7 +127,7 @@ var Base64 = {
         return string;
     }
 
-}
+};
 var user = (document.getElementById("gh-profile").getAttribute("user") ? document.getElementById("gh-profile").getAttribute("user"): null),
 org =(document.getElementById("gh-profile").getAttribute("org") ? document.getElementById("gh-profile").getAttribute("org"): null),
 bio = (document.getElementById("gh-profile").getAttribute("bio") ? (document.getElementById("gh-profile").getAttribute("bio") === "false" ? false: true) : false),
@@ -136,42 +136,41 @@ blog = (document.getElementById("gh-profile").getAttribute("blog") ? (document.g
 email = (document.getElementById("gh-profile").getAttribute("email") ? (document.getElementById("gh-profile").getAttribute("email") === "false" ? false: true) : false),
 company = (document.getElementById("gh-profile").getAttribute("company") ? (document.getElementById("gh-profile").getAttribute("company") === "false" ? false: true) : false),
 follow = (document.getElementById("gh-profile").getAttribute("follow") ? (document.getElementById("gh-profile").getAttribute("follow") === "false" ? false: true) : false),
-token_encode = (document.getElementById("gh-profile").getAttribute("token_encode") ? document.getElementById("gh-profile").getAttribute("token_encode"): null),
+token = (document.getElementById("gh-profile").getAttribute("token_encode") ? Base64.decode(document.getElementById("gh-profile").getAttribute("token_encode")): null),
 head = document.getElementsByTagName("head")[0];
 jsonp("https://api.github.com/"+(org?"orgs":"users")+"/"+(org?org:user));
 function addK(t) {
     var n = parseInt(t, 10);
     if (n < 1000) {
-        return n
+        return n;
     } else {
         n = n / 1000;
-        return n.toFixed(1) + "k"
+        return n.toFixed(1) + "k";
     }
 }
 function addCommas(t) {
-    return String(t).replace(/(\d)(?=(\d{3})+$)/g, "$1,")
+    return String(t).replace(/(\d)(?=(\d{3})+$)/g, "$1,");
 }
 function jsonp(t, e) {
     var r = document.createElement("script");
-    var github_access_token = token_encode?Base64.decode(token_encode):"03cf7cd880bb8" + "36c6bfc0fdf3d92492001e657ed";
-    r.src = t + "?access_token=" + github_access_token + "&callback=" + (e ? e: "callback"),
+    r.src = t + "?" + (token==null?"":("access_token=" + token+"&")) + "callback=" + (e ? e: "callback");
     head.appendChild(r);
     r = document.createElement("link");
     r.href="style.css";
     r.rel="stylesheet";
-    head.insertBefore(r,head.firstChild)
+    head.insertBefore(r,head.firstChild);
 }
 function contains(arr, str) {
     for (var i = 0; i < arr.length; i++) {
         if (arr[i] == str) {
-            return true
+            return true;
         } else {
-            return false
+            return false;
         }
     }
 }
 function matches(str) {
-    return String(str).replace(/@([\w][\w-]*)/g, "<a target=\"_blank\" class=\"user-mention\" href=\"https://github.com/$1\">@$1</a>")
+    return String(str).replace(/@([\w][\w-]*)/g, "<a target=\"_blank\" class=\"user-mention\" href=\"https://github.com/$1\">@$1</a>");
 }
 function callback(t) {
     document.getElementById("gh-profile-login_h3").innerHTML = addCommas(t.data.login);
@@ -186,39 +185,39 @@ function callback(t) {
     document.getElementById("gh-profile-gists_a").setAttribute("href", "https://gist.github.com/{login}".replace("{login}", addCommas(t.data.login)));
     document.getElementById("gh-profile-followers_a").setAttribute("href", "https://github.com/{login}/followers".replace("{login}", addCommas(t.data.login)));
     if (locations) {
-        document.getElementById("gh-profile-location_span").innerHTML = addCommas(t.data.location)
+        document.getElementById("gh-profile-location_span").innerHTML = addCommas(t.data.location);
     } else {
-        document.getElementById("gh-profile-location_li").style.display = "none"
+        document.getElementById("gh-profile-location_li").style.display = "none";
     }
     if (blog) {
         document.getElementById("gh-profile-blog_a").innerHTML = addCommas(t.data.blog);
-        document.getElementById("gh-profile-blog_a").setAttribute("href", addCommas(t.data.blog))
+        document.getElementById("gh-profile-blog_a").setAttribute("href", addCommas(t.data.blog));
     } else {
-        document.getElementById("gh-profile-blog_li").style.display = "none"
+        document.getElementById("gh-profile-blog_li").style.display = "none";
     }
     if (email) {
         var a_element = document.getElementById("gh-profile-email_a");
         a_element.setAttribute("href", "mailto:" + addCommas(t.data.email));
-        a_element.innerHTML = addCommas(t.data.email)
+        a_element.innerHTML = addCommas(t.data.email);
     } else {
-        document.getElementById("gh-profile-email_li").style.display = "none"
+        document.getElementById("gh-profile-email_li").style.display = "none";
     }
     if (company) {
         document.getElementById("gh-profile-company_span").innerHTML = matches(addCommas(t.data.company)) + (addCommas(t.data.site_admin) === "true" ? "<span class=\"label bg-blue text-uppercase\">Staff</span>": "");
-        jsonp(addCommas(t.data.organizations_url), "organization_query")
+        jsonp(addCommas(t.data.organizations_url), "organization_query");
     } else {
         document.getElementById("gh-profile-company_li").style.display = "none";
-        document.getElementById("gh-profile-organizations_div").style.display = "none"
+        document.getElementById("gh-profile-organizations_div").style.display = "none";
     }
     if (bio) {
-        document.getElementById("gh-profile-bio_div").innerHTML = matches(addCommas(t.data.bio))
+        document.getElementById("gh-profile-bio_div").innerHTML = matches(addCommas(t.data.bio));
     } else {
-        document.getElementById("gh-profile-bio_display").style.display = "none"
+        document.getElementById("gh-profile-bio_display").style.display = "none";
     }
     if (follow) {
-        document.getElementById("gh-profile-follow_a").setAttribute("href", "https://github.com/login?return_to=%2F" + addCommas(t.data.login))
+        document.getElementById("gh-profile-follow_a").setAttribute("href", "https://github.com/login?return_to=%2F" + addCommas(t.data.login));
     } else {
-        document.getElementById("gh-profile-follow_div").style.display = "none"
+        document.getElementById("gh-profile-follow_div").style.display = "none";
     }
     if (addCommas(t.data.type)=="Organization") {
        document.getElementById("gh-profile-organizations_div").style.display="none";
@@ -231,7 +230,7 @@ function callback(t) {
 }
 function organization_query(t) {
     for (var i = 0; i < t.data.length; i++) {
-        document.getElementById("gh-profile-organizations_div").innerHTML += ("<a target=\"_blank\" aria-label=\"" + addCommas(t.data[i].login) + "\" itemprop=\"follows\" class=\"tooltipped tooltipped-n avatar-group-item\" href=\"https://github.com/" + addCommas(t.data[i].login) + "\"><img src=\"" + addCommas(t.data[i].avatar_url) + "\" class=\"avatar\" width=\"35\" height=\"35\" alt=\"@" + addCommas(t.data[i].login) + "\"></a>&nbsp;")
+        document.getElementById("gh-profile-organizations_div").innerHTML += ("<a target=\"_blank\" aria-label=\"" + addCommas(t.data[i].login) + "\" itemprop=\"follows\" class=\"tooltipped tooltipped-n avatar-group-item\" href=\"https://github.com/" + addCommas(t.data[i].login) + "\"><img src=\"" + addCommas(t.data[i].avatar_url) + "\" class=\"avatar\" width=\"35\" height=\"35\" alt=\"@" + addCommas(t.data[i].login) + "\"></a>&nbsp;");
     }
 }
 function orgmember_query(t) {
