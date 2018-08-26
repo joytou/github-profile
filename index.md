@@ -170,7 +170,7 @@ The following parameters are **not** required. Add them as you wish.
 
 ## Code and preview
 <form class="form-group">
-<input type="text" id="remainoutput" readOnly><br/>
+<textarea id="remainoutput" readOnly></textarea><br/>
 <input type="checkbox" id="orgcheck" value="Org" onclick="myFunction()">Organization account<br/>
 <input type="text" id="myInput" oninput="myFunction()" placeholder=":user"><br/>
 <input type="text" id="inputtoken" oninput="myFunction()" placeholder=":base64 encoded access token"><br/>
@@ -181,7 +181,7 @@ The following parameters are **not** required. Add them as you wish.
 <input type="checkbox" id="companycheck" value="Company" onclick="myFunction()">Show company<br/>
 <input type="checkbox" id="followcheck" value="Follow" onclick="myFunction()">Show follow button<br/>
 <input type="checkbox" id="iframeidcheck" value="IframeId" onclick="myFunction()">Auto adiust height for iframe<br/>
-  <iframe id="test_iframe" width="100%" height="240" allowtransparency="true" frameborder="0" scrolling="auto" src="https://github-profile.joytou.net/gh-profile.min/?user=joytou"></iframe>
+  <iframe id="test_iframe" width="100%" height="240" allowtransparency="true" frameborder="0" scrolling="auto"></iframe>
   -------
 With iframe element:<br/>
 <textarea style="width:100%" id="iframecode" readOnly onclick="this.select()"><iframe src="https://github-profile.joytou.net/gh-profile.min/?user=joytou&bio=false&locations=false&blog=false&email=false&company=false&follow=false"></iframe></textarea>
@@ -191,7 +191,7 @@ With div element:<br/>
 </form>
 <script>
 function query_remain(t) {
-document.getElementById("remainoutput").value="Remaining queries: "+t.data.resources.core.remaining+"\nTotal queries:"+t.data.resources.core.limit;
+document.getElementById("remainoutput").value="Remaining queries: "+t.data.resources.core.remaining+" \r\nTotal queries:"+t.data.resources.core.limit;
 }
 function myFunction() {
     var x = document.getElementById("myInput").value;
@@ -213,6 +213,7 @@ function myFunction() {
     document.getElementById("iframecode").value="<iframe"+(iframeid?" id=\"iframedemo\"":"")+" src=\"https://github-profile.joytou.net/gh-profile.min/?"+(org?"org":"user")+"=" + (x?x:"joytou")+"&bio="+bio+"&locations="+location+"&blog="+blog+"&email="+email+"&company="+company+"&follow="+follow+"&iframeid=iframedemo"+(tokenencode?"&token_encode="+tokenencode:"")+"\"></iframe>";
     document.getElementById("divcode").value="<div id=\"gh-profile\" "+(org?"org":"user")+"=\""+(x?x:"joytou")+"\" bio=\""+bio+"\" locations=\""+location+"\" blog=\""+blog+"\" email=\""+email+"\" company=\""+company+"\" follow=\""+follow+(tokenencode?"\" token_encode=\""+tokenencode:"")+"\"></div>";
 }
+myFunction();
 </script>
 
 
