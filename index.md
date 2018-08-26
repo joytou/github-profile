@@ -170,6 +170,7 @@ The following parameters are **not** required. Add them as you wish.
 
 ## Code and preview
 <form class="form-group">
+<input type="text" id="remainoutput" readOnly><br/>
 <input type="checkbox" id="orgcheck" value="Org" onclick="myFunction()">Organization account<br/>
 <input type="text" id="myInput" oninput="myFunction()" placeholder=":user"><br/>
 <input type="text" id="inputtoken" oninput="myFunction()" placeholder=":base64 encoded access token"><br/>
@@ -189,6 +190,9 @@ With div element:<br/>
 <textarea style="width:100%" id="divcode" readOnly onclick="this.select()"><div id="gh-profile" user="joytou" bio="false" locations="false" email="false" blog="false" company="false" follow="false"></div></textarea><textarea style="width:100%" readOnly onclick="this.select()"><script async defer src="https://github-profile.joytou.net/gh-profile.min.js"></script></textarea>
 </form>
 <script>
+function query_remain(t) {
+document.getElementById("remainoutput").value="Remaining queries: "+t.data.resources.core.remaining+"\nTotal queries:"+t.data.resources.core.limit;
+}
 function myFunction() {
     var x = document.getElementById("myInput").value;
     var org = document.getElementById("orgcheck").checked;
@@ -200,6 +204,10 @@ function myFunction() {
     var follow = document.getElementById("followcheck").checked;
     var iframeid = document.getElementById("iframeidcheck").checked;
     var tokenencode = document.getElementById("inputtoken").value;
+    var head = document.getElementsByTagName("head")[0];
+    var query_remain_script = document.createElement("script");
+    query_remain_script.src = "https://api.github.com/rate_limit?"+(tokenencode?"access_token="+tokenencode+"&":"")+"callback=query_remain";
+    head.appendChild(query_remain_script);
     document.getElementById("myInput").placeholder=(org?":organization":":user");
     document.getElementById("test_iframe").src = "https://github-profile.joytou.net/gh-profile.min/?"+(org?"org":"user")+"=" + (x?x:"joytou")+"&bio="+bio+"&locations="+location+"&blog="+blog+"&email="+email+"&company="+company+"&follow="+follow+(iframeid?"&iframeid=test_iframe":"")+(tokenencode?"&token_encode="+tokenencode:"");
     document.getElementById("iframecode").value="<iframe"+(iframeid?" id=\"iframedemo\"":"")+" src=\"https://github-profile.joytou.net/gh-profile.min/?"+(org?"org":"user")+"=" + (x?x:"joytou")+"&bio="+bio+"&locations="+location+"&blog="+blog+"&email="+email+"&company="+company+"&follow="+follow+"&iframeid=iframedemo"+(tokenencode?"&token_encode="+tokenencode:"")+"\"></iframe>";
