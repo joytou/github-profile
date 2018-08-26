@@ -156,7 +156,7 @@ function jsonp(t, e) {
     r.src = t + "?" + (token==null?"":("access_token=" + token+"&")) + "callback=" + (e ? e: "callback");
     head.appendChild(r);
     r = document.createElement("link");
-    r.href="style.css";
+    r.href="https://github-profile.joytou.net/style.css";
     r.rel="stylesheet";
     head.insertBefore(r,head.firstChild);
 }
