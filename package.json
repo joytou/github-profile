@@ -23,6 +23,8 @@
   "files": [
     "/_layouts/default.html",
     "gh-profile.html",
+    "gh-profile.min.html",
+    "gh-profile.js",
     "gh-profile.min.js",
     "style.css",
     "LICENSE.md"
