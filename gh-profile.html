@@ -48,7 +48,7 @@ title: "gh-profile"
 		  <a target="_blank" class="btn btn-block" id="follow_a">Follow</a></div>
 	  </div>
 	  <div class="border-top py-3 clearfix" id="organizations_div"><h2 class="mb-1 h4">Organizations</h2></div>
-	  <div class="Box mb-3" id="orgmember_div"><div class="Box-body"><a class="d-block text-gray-dark" href="/orgs/github/people" data-ga-click="Orgs, go to people, location:profile people module; text:People" id="orgmember_a"><span class="float-right f5 text-gray">More<svg class="octicon octicon-chevron-right" viewbox="0 0 8 16" version="1.1" width="8" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.5 8l-5 5L1 11.5 4.75 8 1 4.5 2.5 3l5 5z"></path></svg> </span><h4 class="f4 text-normal mb-3">People</h4></a><div class="member-avatar-group d-flex flex-wrap" id="org_member_list_div"></div></div></div>
+	  <div class="Box mb-3" id="orgmember_div"><div class="Box-body"><a target="_blank" class="d-block text-gray-dark" href="/orgs/github/people" data-ga-click="Orgs, go to people, location:profile people module; text:People" id="orgmember_a"><span class="float-right f5 text-gray">More<svg class="octicon octicon-chevron-right" viewbox="0 0 8 16" version="1.1" width="8" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.5 8l-5 5L1 11.5 4.75 8 1 4.5 2.5 3l5 5z"></path></svg> </span><h4 class="f4 text-normal mb-3">People</h4></a><div class="member-avatar-group d-flex flex-wrap" id="org_member_list_div"></div></div></div>
 
 <script>
 var Base64 = {
@@ -289,7 +289,7 @@ function organization_query(t) {
 }
 function orgmember_query(t) {
     for (var i = 0; i < t.data.length; i++) {
-        document.getElementById("org_member_list_div").innerHTML+=("<a href=\"https://github.com/"+addCommas(t.data[i].login)+"\" class=\"member-avatar\" data-ga-click=\"Orgs, go to person, location:profile people module; text:username\"><img class=\"avatar\" src=\""+addCommas(t.data[i].avatar_url)+"\" width=\"35\" height=\"35\" alt=\"@"+addCommas(t.data[i].login)+"\"></a>&nbsp;");
+        document.getElementById("org_member_list_div").innerHTML+=("<a target=\"_blank\" href=\"https://github.com/"+addCommas(t.data[i].login)+"\" class=\"member-avatar\" data-ga-click=\"Orgs, go to person, location:profile people module; text:username\"><img class=\"avatar\" src=\""+addCommas(t.data[i].avatar_url)+"\" width=\"35\" height=\"35\" alt=\"@"+addCommas(t.data[i].login)+"\"></a>&nbsp;");
     }
 }
 jsonp("https://api.github.com/"+(org?"orgs":"users")+"/"+(org?org:user));
