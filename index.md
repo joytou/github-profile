@@ -193,6 +193,10 @@ With div element:<br/>
 function query_remain(t) {
 document.getElementById("remainoutput").value="Remaining queries: "+t.data.resources.core.remaining+" \r\nTotal queries:"+t.data.resources.core.limit;
 }
+    var head = document.getElementsByTagName("head")[0];
+    var query_remain_script = document.createElement("script");
+    query_remain_script.src = "https://api.github.com/rate_limit?callback=query_remain";
+    head.appendChild(query_remain_script);
 function myFunction() {
     var x = document.getElementById("myInput").value;
     var org = document.getElementById("orgcheck").checked;
@@ -204,8 +208,6 @@ function myFunction() {
     var follow = document.getElementById("followcheck").checked;
     var iframeid = document.getElementById("iframeidcheck").checked;
     var tokenencode = document.getElementById("inputtoken").value;
-    var head = document.getElementsByTagName("head")[0];
-    var query_remain_script = document.createElement("script");
     query_remain_script.src = "https://api.github.com/rate_limit?"+(tokenencode?"access_token="+tokenencode+"&":"")+"callback=query_remain";
     head.appendChild(query_remain_script);
     document.getElementById("myInput").placeholder=(org?":organization":":user");
