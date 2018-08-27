@@ -202,9 +202,9 @@ function myFunction() {
     var iframeid = document.getElementById("iframeidcheck").checked;
     var tokenencode = document.getElementById("inputtoken").value;
     document.getElementById("myInput").placeholder=(org?":organization":":user");
-    document.getElementById("test_iframe").src = "https://github-profile.joytou.net/gh-profile.min/?"+(org?"org":"user")+"=" + (x?x:"joytou")+"&bio="+bio+"&locations="+location+"&blog="+blog+"&email="+email+"&company="+company+"&follow="+follow+(iframeid?"&iframeid=test_iframe":"")+(tokenencode?"&token_encode="+tokenencode:"");
-    document.getElementById("iframecode").value="<iframe"+(iframeid?" id=\"iframedemo\"":"")+" src=\"https://github-profile.joytou.net/gh-profile.min/?"+(org?"org":"user")+"=" + (x?x:"joytou")+"&bio="+bio+"&locations="+location+"&blog="+blog+"&email="+email+"&company="+company+"&follow="+follow+"&iframeid=iframedemo"+(tokenencode?"&token_encode="+tokenencode:"")+"\"></iframe>";
-    document.getElementById("divcode").value="<div id=\"gh-profile\" "+(org?"org":"user")+"=\""+(x?x:"joytou")+"\" bio=\""+bio+"\" locations=\""+location+"\" blog=\""+blog+"\" email=\""+email+"\" company=\""+company+"\" follow=\""+follow+(tokenencode?"\" token_encode=\""+tokenencode:"")+"\"></div>";
+    document.getElementById("test_iframe").src = "https://github-profile.joytou.net/gh-profile.min/?"+(org?"org":"user")+"=" + (x?x:"joytou")+"&bio="+bio+"&locations="+location+"&blog="+blog+"&email="+email+"&company="+company+"&follow="+follow+(iframeid?"&iframeid=test_iframe":"")+(tokenencode?"&token_encode="+tokenencode.replace("=","%3d").replace("+","%2b").replace("/","%2f"):"");
+    document.getElementById("iframecode").value="<iframe"+(iframeid?" id=\"iframedemo\"":"")+" src=\"https://github-profile.joytou.net/gh-profile.min/?"+(org?"org":"user")+"=" + (x?x:"joytou")+"&bio="+bio+"&locations="+location+"&blog="+blog+"&email="+email+"&company="+company+"&follow="+follow+"&iframeid=iframedemo"+(tokenencode?"&token_encode="+tokenencode.tokenencode.replace("=","%3d").replace("+","%2b").replace("/","%2f"):"")+"\"></iframe>";
+    document.getElementById("divcode").value="<div id=\"gh-profile\" "+(org?"org":"user")+"=\""+(x?x:"joytou")+"\" bio=\""+bio+"\" locations=\""+location+"\" blog=\""+blog+"\" email=\""+email+"\" company=\""+company+"\" follow=\""+follow+(tokenencode?"\" token_encode=\""+tokenencode.tokenencode.replace("%3d","=").replace("%2b","+").replace("%2f","/"):"")+"\"></div>";
 }
 function storage_token() {
 myFunction();
