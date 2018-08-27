@@ -172,7 +172,8 @@ The following parameters are **not** required. Add them as you wish.
 <form class="form-group">
 <input type="checkbox" id="orgcheck" value="Org" onclick="myFunction()">Organization account<br/>
 <input type="text" id="myInput" oninput="myFunction()" placeholder=":user"><br/>
-<input type="text" id="inputtoken" oninput="myFunction()" placeholder=":base64 encoded access token"><br/>
+<input type="text" id="inputtoken" oninput="storage_token()" placeholder=":base64 encoded access token"><br/>
+<span>Tip: The encoded token you enter will be stored in the local device for auto-completion.</span>
 <input type="checkbox" id="biocheck" value="Bio" onclick="myFunction()">Show bio<br/>
 <input type="checkbox" id="locationcheck" value="Location" onclick="myFunction()">Show location<br/>
 <input type="checkbox" id="blogcheck" value="Blog" onclick="myFunction()">Show blog<br/>
@@ -205,7 +206,19 @@ function myFunction() {
     document.getElementById("iframecode").value="<iframe"+(iframeid?" id=\"iframedemo\"":"")+" src=\"https://github-profile.joytou.net/gh-profile.min/?"+(org?"org":"user")+"=" + (x?x:"joytou")+"&bio="+bio+"&locations="+location+"&blog="+blog+"&email="+email+"&company="+company+"&follow="+follow+"&iframeid=iframedemo"+(tokenencode?"&token_encode="+tokenencode:"")+"\"></iframe>";
     document.getElementById("divcode").value="<div id=\"gh-profile\" "+(org?"org":"user")+"=\""+(x?x:"joytou")+"\" bio=\""+bio+"\" locations=\""+location+"\" blog=\""+blog+"\" email=\""+email+"\" company=\""+company+"\" follow=\""+follow+(tokenencode?"\" token_encode=\""+tokenencode:"")+"\"></div>";
 }
+function storage_token() {
 myFunction();
+if (typeof(Storage) !== "undefined") {
+localStorage.setItem("gh-profile_token_encode", document.getElementById("inputtoken").value);
+}
+}
+function read_token() {
+if (typeof(Storage) !== "undefined") {
+document.getElementById("inputtoken").value=localStorage.getItem("gh-profile_token_encode");
+}
+}
+myFunction();
+read_token();
 </script>
 
 
