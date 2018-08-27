@@ -217,8 +217,8 @@ if (typeof(Storage) !== "undefined") {
 document.getElementById("inputtoken").value=localStorage.getItem("gh-profile_token_encode");
 }
 }
-myFunction();
 read_token();
+myFunction();
 </script>
 
 
