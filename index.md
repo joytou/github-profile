@@ -171,9 +171,9 @@ The following parameters are **not** required. Add them as you wish.
 ## Code and preview
 <form class="form-group">
 <input type="checkbox" id="orgcheck" value="Org" onclick="myFunction()">Organization account<br/>
-<input type="text" id="myInput" oninput="myFunction()" placeholder=":user"><br/>
-<input type="text" id="inputtoken" oninput="storage_token()" placeholder=":base64 encoded access token"><br/>
-<span>**Warning**: The encoded token you enter will be stored in the local device for auto-completion.</span><br/>
+<input type="text" id="myInput" oninput="myFunction()" placeholder=":user" width="100%"><br/>
+<input type="text" id="inputtoken" oninput="storage_token()" placeholder=":base64 encoded access token" width="100%"><br/>
+<span><strong>Warning</strong>: The encoded token you enter will be stored in the local device for auto-completion.</span><br/>
 <input type="checkbox" id="biocheck" value="Bio" onclick="myFunction()">Show bio<br/>
 <input type="checkbox" id="locationcheck" value="Location" onclick="myFunction()">Show location<br/>
 <input type="checkbox" id="blogcheck" value="Blog" onclick="myFunction()">Show blog<br/>
